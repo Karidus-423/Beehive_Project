@@ -56,6 +56,20 @@ def build_layout():
 
         # Sliders Segment
         dbc.Row([
+            dbc.Col([
+                dbc.Row([
+                        html.Div(
+                            dcc.Input(id='submit',
+                                      type='text',
+                                      placeholder= "28, 40")), #layout and variables for button and input collection
+                            html.Button('Submit',
+                                        id='submit-val'),
+                            html.Div(
+                                        id='container-button-basic',
+                                        children='Enter the temperatures you wish to see, seperated with a comma (,)'),
+                ])
+            ])
+            ])
             # Year Column
             dbc.Col([
                 dbc.Row([
@@ -142,6 +156,6 @@ def build_layout():
                  'padding':'50px',
             }
         ),
-    ])
+    
     
 

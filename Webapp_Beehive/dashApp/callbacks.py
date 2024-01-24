@@ -5,11 +5,15 @@ import numpy as np
 from scipy.interpolate import griddata
 from datetime import datetime
 import base64
+import dash
+from dash import State
 from io import BytesIO
 from maindash import app
 from layout import build_layout
 
 
+app = dash.Dash(__name__)
+server = app.server
 
 def initialize_variables():
     global years, months, days, hours, sensor_numbers,dataset  # Declare the variables as global
@@ -115,13 +119,25 @@ def update_hours_range_slider_marks(day_range):
 camera_params = initial_camera
 
 @app.callback(
-    Output('isograph', 'figure'),
+    [Output('isograph', 'figure'), Output('container-button-basic', 'children')],
     [Input('years-slider', 'value'),
     Input('months-slider', 'value'),
     Input('days-range-slider', 'value'),
-    Input('hours-range-slider', 'value')]
+    Input('hours-range-slider', 'value'),
+    Input('submit-val', 'n_clicks')],
+    [State('submit', 'value')] # passing submitted values of temperature range to updates figure
 )
-def update_selected_dates(year_value, month_value, day_range, hour_range):
+def update_selected_dates(year_value, month_value, day_range, hour_range, selected_index, n_clicks, value):
+    if n_clicks is None:
+        value = "28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40" # default values are the full list, assuming 28-40 range
+
+    try:
+        values = list(map(int, value.split(','))) #splits user submitted values
+    except ValueError: #user inputs text or improperly formatted values, no update will happen
+        return dash.no_update # need to add feedback
+    
+    values.sort() # sorts user entered values in numeric order
+
     selected_year = year_value
     selected_month = month_value
     
@@ -148,6 +164,9 @@ def update_selected_dates(year_value, month_value, day_range, hour_range):
 
     points = np.array((recording['X'], recording['Y'], recording['Z'])).T
     temps = recording['Temperature']
+
+    values = [max(min(val, max(values)), min(values)) for val in values] #organizes users values
+
     
     newdata = griddata(points, temps, (x, y, z), method='linear')
     
@@ -159,8 +178,10 @@ def update_selected_dates(year_value, month_value, day_range, hour_range):
         value=newdata.flatten(),
         colorscale= 'plasma',
         opacity=0.6,
-        isomin=recording['Temperature'].min(),
-        isomax=recording['Temperature'].max(),
+        isomin=min(values), # replaced min and max with user input
+        isomax=max(values), # replaced min and max with user input
+        cmin= 28, # for static colorbar
+        cmax= 40, # for static colorbar
         surface_count=5,
         caps=dict(x_show=False, y_show=False),
         colorbar=dict(
