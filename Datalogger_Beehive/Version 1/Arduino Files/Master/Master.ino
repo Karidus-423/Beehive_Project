@@ -46,6 +46,8 @@ void loop() {
         Serial.print(entry);
         dataString += entry;
         dataFile.print(entry.c_str());
+        Serial.println(rtc.getDateStr());
+        Serial.println(rtc.getTimeStr());
         
         Serial.print(dataString); 
         sensorID++;
@@ -57,8 +59,7 @@ void loop() {
     dataFile.close();
   }
 
-  Serial.println(rtc.getDateStr());
-  Serial.println(rtc.getTimeStr());
+  
 
   delay(5000);
 }
