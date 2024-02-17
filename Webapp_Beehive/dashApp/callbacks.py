@@ -52,19 +52,27 @@ files_uploaded_count = 0
 )
 
 def update_dataset_and_figures(contents):
-    global dataset,files_uploaded_count
+    global dataset, years, months, days, hours, sensor_numbers, files_uploaded_count
     if contents is not None:
         content_type, content_string = contents.split(',')
         decoded = base64.b64decode(content_string)
         try:
+            # Load new dataset from uploaded contents
             new_data = pd.read_csv(BytesIO(decoded))
             dataset = new_data
+            
+            # Reinitialize global variables based on the new dataset
+            years = set(dataset["Year"])
+            months = set(dataset["Month"])
+            days = set(dataset["Day"])
+            hours = set(dataset["Hour"])
+            sensor_numbers = set(dataset["Sensor_number"])
+            
             files_uploaded_count += 1
-            return 'Data Uploaded Succesfully'
+            return 'Data Uploaded Successfully'
         except Exception as e:
             print(e)
             return 'Error processing the uploaded file.'
-        
     return ''
 
 

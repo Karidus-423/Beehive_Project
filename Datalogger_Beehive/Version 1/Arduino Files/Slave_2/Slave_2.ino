@@ -17,7 +17,7 @@ void loop() {
 void send(){
   for (int i = 0; i < 4; i++) {
     uint32_t reading = analogRead(Sensors[i]);
-    float voltage = reading * (5000 / 1024.0);
+    float voltage = reading * (4000 / 1024.0);
     float temp = voltage / 10;
 
     logData =String(temp) + "\n";

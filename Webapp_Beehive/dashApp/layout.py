@@ -5,7 +5,7 @@ import pandas as pd
 
 
 def build_layout():
-    dataset = pd.read_csv("sensor_data_hours_updated.csv")
+    dataset = pd.read_csv("../sensor_data_hours_updated.csv")
     years = set(dataset["Year"])
     load_figure_template('MORPH')
 
@@ -142,6 +142,8 @@ def build_layout():
                  'padding':'50px',
             }
         ),
-    ])
+    ],style={
+                    'margin' : '30%',
+                    })
     
 
