@@ -13,7 +13,7 @@ from layout import build_layout
 
 def initialize_variables():
     global years, months, days, hours, sensor_numbers,dataset  # Declare the variables as global
-    dataset = pd.read_csv("sensor_data_hours_updated.csv")
+    dataset = pd.read_csv("../sensor_data_hours_updated.csv")
     years = set(dataset["Year"])
     months = set(dataset["Month"])
     days = set(dataset["Day"])
@@ -21,7 +21,6 @@ def initialize_variables():
     sensor_numbers = set(dataset["Sensor_number"])
     
 initialize_variables()
-
 month_list = list(months)
     
 
