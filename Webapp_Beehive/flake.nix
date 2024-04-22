@@ -1,3 +1,4 @@
+#flake.nix
 {
   description = "FHS Environment";
   inputs = {

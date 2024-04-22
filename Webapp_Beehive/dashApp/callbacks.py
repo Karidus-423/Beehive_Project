@@ -9,8 +9,6 @@ from io import BytesIO
 from maindash import app
 from layout import build_layout
 
-
-
 def initialize_variables():
     global years, months, days, hours, sensor_numbers,dataset  # Declare the variables as global
     dataset = pd.read_csv("../sensor_data_hours_updated.csv")
@@ -19,7 +17,7 @@ def initialize_variables():
     days = set(dataset["Day"])
     hours = set(dataset["Hour"])
     sensor_numbers = set(dataset["Sensor_number"])
-    
+
 initialize_variables()
 month_list = list(months)
     
@@ -113,10 +111,6 @@ def update_days_range_slider_marks(value):
     Output('hours-range-slider', 'max'),
     Input('days-range-slider', 'value')
 )
-def update_hours_range_slider_marks(day_range):
-    minimum_hours = min(hours)
-    maximum_hours = max(hours)
-    return minimum_hours, maximum_hours
 
 
 camera_params = initial_camera
