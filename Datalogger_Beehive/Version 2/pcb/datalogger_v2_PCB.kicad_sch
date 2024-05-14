@@ -1,0 +1,11078 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a146852f-6ecc-479c-b01e-835ccf332ac0")
+	(paper "A2")
+	(lib_symbols
+		(symbol "Device:Battery"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCU_Module:Adafruit_Feather_32u4_BluefruitLE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at -10.16 28.575 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Adafruit_Feather_32u4_BluefruitLE"
+				(at 2.54 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Module:Adafruit_Feather"
+				(at 2.54 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Microcontroller module with ATmega32u4 MCU and bluetooth"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Adafruit feather microcontroller module USB AVR ATmega32U4  Bluetooth BLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Adafruit*Feather*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_Feather_32u4_BluefruitLE_0_1"
+				(rectangle
+					(start -10.16 27.94)
+					(end 10.16 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Adafruit_Feather_32u4_BluefruitLE_1_1"
+				(pin input line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SCK/D15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "MOSI/D16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "MISO/D14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "RX/D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "TX/D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "~{DFU}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "SDA/D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "SCL/D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 30.48 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 30.48 270)
+					(length 2.54)
+					(name "USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 30.48 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -33.02 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MCU_Module:Adafruit_Feather_M0_Adalogger"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at -10.16 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Adafruit_Feather_M0_Adalogger"
+				(at 2.54 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Module:Adafruit_Feather"
+				(at 2.54 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-adalogger.pdf"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Microcontroller module with SAMD21 Cortex-M0 MCU and SD card reader"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Adafruit feather microcontroller module USB SD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Adafruit*Feather*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Adafruit_Feather_M0_Adalogger_0_1"
+				(rectangle
+					(start -10.16 27.94)
+					(end 10.16 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Adafruit_Feather_M0_Adalogger_1_1"
+				(pin input line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SCK/D24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "MOSI/D23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "MISO/D22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "RX/D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "TX/D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "SDA/D20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "SCL/D21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 30.48 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "D13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 30.48 270)
+					(length 2.54)
+					(name "USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 30.48 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -33.02 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "DAC0/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sensor_Temperature:DS18B20"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DS18B20"
+				(at 6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at -25.4 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OneWire 1Wire Dallas Maxim"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO*92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DS18B20_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.302 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.667 -1.905)
+					(end -3.937 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -2.667 3.175)
+					(mid -3.302 3.8073)
+					(end -3.937 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 0.635) (xy -3.302 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.27) (xy -3.302 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.905) (xy -3.302 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 2.54) (xy -3.302 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 3.175) (xy -3.937 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 3.175) (xy -3.302 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.667 3.175) (xy -2.667 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DS18B20_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "my_custom:battery_booster_3,5v_to_5v"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "battery_booster_3,5v_to_5v_0_1"
+				(rectangle
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "battery_booster_3,5v_to_5v_1_1"
+				(pin input line
+					(at 12.7 6.35 0)
+					(length 2.54)
+					(name "Input+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -6.35 0)
+					(length 2.54)
+					(name "Input-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 6.35 180)
+					(length 2.54)
+					(name "Ouput+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -6.35 180)
+					(length 2.54)
+					(name "Ouput-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 151.13 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0067f295-62e6-41b3-b7c1-ca273b4699da")
+	)
+	(junction
+		(at 57.15 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03cb84a4-02f1-4282-b81f-48200b17a771")
+	)
+	(junction
+		(at 215.9 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06d985ab-3701-43c6-a084-df2127e5a7af")
+	)
+	(junction
+		(at 57.15 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0761db5b-434f-4499-9a2c-fc1d917c7da8")
+	)
+	(junction
+		(at 74.93 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07a70787-5f41-4955-a854-88ec27cf5753")
+	)
+	(junction
+		(at 184.15 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07c43bdd-82d0-48e2-b8e8-f54cfe27f1a6")
+	)
+	(junction
+		(at 49.53 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "089024be-3d2e-4003-ac8d-a4b22cb70272")
+	)
+	(junction
+		(at 133.35 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a315f85-c94b-4885-be94-2268d6eb7feb")
+	)
+	(junction
+		(at 39.37 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b21eda0-e8d5-4e30-80e9-f162d9aeed9b")
+	)
+	(junction
+		(at 90.17 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd8aac9-c7df-4707-9ab3-e780c4eef410")
+	)
+	(junction
+		(at 115.57 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e8e817f-0a2f-466a-886a-090e04c1ac7f")
+	)
+	(junction
+		(at 107.95 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f25b604-58a2-4e93-b8a8-5eb61bae1b44")
+	)
+	(junction
+		(at 184.15 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb5d249-239d-4e6c-8043-758abca8dc0e")
+	)
+	(junction
+		(at 24.13 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1252b15a-22bf-47c9-8dbd-6f973d86d728")
+	)
+	(junction
+		(at 184.15 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12e4c38b-556f-4238-91fd-d1b1959ee8d8")
+	)
+	(junction
+		(at 115.57 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e322a6-462b-4501-b9b1-106e19b2eaed")
+	)
+	(junction
+		(at 151.13 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17052493-1a9a-4500-8de1-6e076a714c26")
+	)
+	(junction
+		(at 90.17 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "176397a8-905f-4d14-a7a3-4945acb2a23b")
+	)
+	(junction
+		(at 184.15 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1817f9a3-bf1f-4ba7-b90e-523eb3646b69")
+	)
+	(junction
+		(at 39.37 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a4acf99-2f7e-4871-b38e-f9543b336ec8")
+	)
+	(junction
+		(at 57.15 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a751007-df42-46f1-a8df-4d628eb92f1c")
+	)
+	(junction
+		(at 215.9 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c1b0db4-ca28-4767-a44f-2d6a6687a25d")
+	)
+	(junction
+		(at 64.77 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c756650-d962-44cd-a6bf-604b52d2f3c7")
+	)
+	(junction
+		(at 74.93 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c7e2b0a-ffc4-4b78-b91b-b82f9dbb553c")
+	)
+	(junction
+		(at 90.17 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e80c695-d2e0-49f7-ad38-b3474565fa85")
+	)
+	(junction
+		(at 133.35 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f32a60a-7a21-4bda-837c-811d69f9c71b")
+	)
+	(junction
+		(at 166.37 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1faf98cd-18b2-4158-9415-385fc6c3f0ce")
+	)
+	(junction
+		(at 100.33 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2224b2df-3bb9-47a3-a622-574aefdebfc9")
+	)
+	(junction
+		(at 133.35 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "222f13a5-2964-4de9-bbfb-adc88cb2ae4b")
+	)
+	(junction
+		(at 100.33 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d9d38c-f125-4ff1-98fb-91ea15d3ea40")
+	)
+	(junction
+		(at 125.73 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25264caf-50c9-4a98-8e13-5f22173f3f57")
+	)
+	(junction
+		(at 191.77 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "252a311a-f674-48c2-9c67-56c4c77dc3ad")
+	)
+	(junction
+		(at 90.17 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25affe73-4a4d-45b0-b026-7204aae5fcbe")
+	)
+	(junction
+		(at 191.77 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27c13660-1cd0-4d35-bdb2-431868a1ba31")
+	)
+	(junction
+		(at 158.75 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ce2ca9-1625-4b65-a7f7-d29a38ae4274")
+	)
+	(junction
+		(at 49.53 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2aa5b7f0-f7dc-4b06-886b-72842b32657d")
+	)
+	(junction
+		(at 90.17 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c2d6ad4-511a-4672-b1d2-ef5b5ce23e94")
+	)
+	(junction
+		(at 151.13 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c5a58e9-b337-4d01-a6b3-349435eb77f5")
+	)
+	(junction
+		(at 107.95 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cb5ea96-967a-4185-b529-e6fa54c8fe92")
+	)
+	(junction
+		(at 107.95 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31b54879-c539-4da8-8723-5a94dadbfeab")
+	)
+	(junction
+		(at 49.53 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345ce3da-24ef-49a0-a9e1-ca9deed1d8a5")
+	)
+	(junction
+		(at 166.37 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ca7151-bd90-4665-b22f-200adeebcbed")
+	)
+	(junction
+		(at 115.57 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38032722-4f6e-475f-86d1-73b569c7e9df")
+	)
+	(junction
+		(at 39.37 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a1144b6-f0f2-4691-a43d-c3bcebdfc513")
+	)
+	(junction
+		(at 158.75 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cba0238-7f55-46c2-806c-fdc940aada9f")
+	)
+	(junction
+		(at 140.97 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de8da65-47fc-493d-b8b6-b65ee87177a6")
+	)
+	(junction
+		(at 24.13 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e29f4a1-2b77-4fb8-a5d2-f66067efe61e")
+	)
+	(junction
+		(at 115.57 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f2e6fcb-3a8d-44da-92b4-1f70fb134139")
+	)
+	(junction
+		(at 64.77 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f700cb6-f81b-4577-b159-e5877a31234d")
+	)
+	(junction
+		(at 82.55 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4119336c-b6a2-49b6-8f7a-5443898b15d1")
+	)
+	(junction
+		(at 115.57 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "413826e3-0be4-47db-abac-6986193a81c1")
+	)
+	(junction
+		(at 74.93 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41cb6142-45ca-4f2f-8973-a232ff82b93b")
+	)
+	(junction
+		(at 82.55 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43168653-4950-4903-a810-45a316f6b141")
+	)
+	(junction
+		(at 107.95 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4522f4b7-6780-40ef-ae0d-974f6c9cb651")
+	)
+	(junction
+		(at 57.15 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45250fc0-08d7-46cb-8861-134c2cc840e3")
+	)
+	(junction
+		(at 57.15 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45cc44e0-ff17-4afe-8fa4-6b5d23dbeb7a")
+	)
+	(junction
+		(at 140.97 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "477ffc56-45db-4927-b182-a28fa50a8b4b")
+	)
+	(junction
+		(at 133.35 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a9bffdb-85ca-41f0-a6ee-ea60689dac11")
+	)
+	(junction
+		(at 82.55 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e0755bd-4eb6-4786-a2c5-33f28d959169")
+	)
+	(junction
+		(at 125.73 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50cd8395-ca47-458b-9ab8-c71d21a4131b")
+	)
+	(junction
+		(at 158.75 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5150935d-0815-4a76-a81c-2b2ed31dcd32")
+	)
+	(junction
+		(at 125.73 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "530e0e51-06d9-4fdb-9500-e93f010ceb61")
+	)
+	(junction
+		(at 191.77 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53758e7f-73a5-4e47-bf01-7c76b48136da")
+	)
+	(junction
+		(at 107.95 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ffcfba-ace4-45e2-906b-b4a37e49a6dd")
+	)
+	(junction
+		(at 49.53 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "541c4aae-215e-4455-b396-692f8fbe39b5")
+	)
+	(junction
+		(at 151.13 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55798022-8694-4a61-912f-553d18fdd5b5")
+	)
+	(junction
+		(at 49.53 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56d54c66-19cc-44b6-832e-ddd83befed18")
+	)
+	(junction
+		(at 57.15 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57570fbf-98c4-4239-a8e4-96ebac21e966")
+	)
+	(junction
+		(at 49.53 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "577834fd-4586-4b0f-8811-e921afb5a7d4")
+	)
+	(junction
+		(at 100.33 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57bde6ef-9dad-4532-8e0b-74e3e084bb51")
+	)
+	(junction
+		(at 151.13 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b9e6395-6871-4ded-adf1-0d1e4573c861")
+	)
+	(junction
+		(at 215.9 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d91acad-c4d7-406c-ac62-c77c6e5560f4")
+	)
+	(junction
+		(at 107.95 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da9a5ee-e3a3-4689-bc83-ccf6bb714db4")
+	)
+	(junction
+		(at 115.57 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f5fd804-0c1b-45c6-a5df-6b2ed5bb10a1")
+	)
+	(junction
+		(at 39.37 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605805c8-f519-4863-8746-2fa59729b6fd")
+	)
+	(junction
+		(at 39.37 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6560876a-7412-4e4b-aaf2-bc9042fbf43b")
+	)
+	(junction
+		(at 125.73 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a391429-a137-44f2-b24b-d96c393ea77c")
+	)
+	(junction
+		(at 100.33 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6adbfd76-5635-48ce-9e23-fe68e612955b")
+	)
+	(junction
+		(at 133.35 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b1fc9c3-7772-43c1-9034-51dbe3505661")
+	)
+	(junction
+		(at 100.33 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b552adc-42b8-4ee3-b5c5-9942c625cfe4")
+	)
+	(junction
+		(at 184.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b5d9ed9-1e82-4c0d-a97f-bf352e4da341")
+	)
+	(junction
+		(at 64.77 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7bd5d7-b29b-43b8-a8bd-2bb770418068")
+	)
+	(junction
+		(at 74.93 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d0f03eb-a9e8-4cc4-9542-0aa2cd8dd8b0")
+	)
+	(junction
+		(at 176.53 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2fa820-f640-40bd-bbce-29b035d38945")
+	)
+	(junction
+		(at 140.97 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f307e4c-1707-42d1-914c-dee228a1b2da")
+	)
+	(junction
+		(at 125.73 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6faca277-52e7-4081-ba71-acbdedb118d5")
+	)
+	(junction
+		(at 24.13 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "706b7764-b3cc-490a-b00f-1678a65d4171")
+	)
+	(junction
+		(at 115.57 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70af8fbd-0f2b-4fdb-9770-e52ffb956094")
+	)
+	(junction
+		(at 24.13 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7192aebb-900a-448c-ac45-a1ed46ba62c7")
+	)
+	(junction
+		(at 39.37 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "738c6be8-c94b-4731-a602-8b61cff5e27a")
+	)
+	(junction
+		(at 184.15 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a7009b-b11c-4253-9b04-b9d2fee2ccbb")
+	)
+	(junction
+		(at 115.57 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76f62abb-2f9f-4da3-8e1f-bd4a6d90920a")
+	)
+	(junction
+		(at 191.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79df3684-37cf-446a-a1ee-c9f1fb46daed")
+	)
+	(junction
+		(at 82.55 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a3b58ac-0000-4ca0-a684-86d420859632")
+	)
+	(junction
+		(at 74.93 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c2a3674-6457-41cc-8b6d-e272dc284404")
+	)
+	(junction
+		(at 151.13 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df97b05-f919-41e2-b5dc-d6cbabe1c513")
+	)
+	(junction
+		(at 100.33 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e387de4-c8dc-42bc-a762-dd3fac39fcc0")
+	)
+	(junction
+		(at 49.53 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f797781-763b-4ff3-94fa-423354d6cd8e")
+	)
+	(junction
+		(at 176.53 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f91263f-b744-43b0-acf7-f280bea55b8c")
+	)
+	(junction
+		(at 24.13 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86df0c4e-8c89-4092-874d-58a1670d6ef8")
+	)
+	(junction
+		(at 57.15 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8726c2ad-635a-4e6e-87ad-76d8ccd960f3")
+	)
+	(junction
+		(at 57.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87ec51a6-9de9-4e97-b2fc-acae5e7fae66")
+	)
+	(junction
+		(at 158.75 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8923b889-506e-4a91-9a48-58651d4740c2")
+	)
+	(junction
+		(at 151.13 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a675a38-8867-4f04-883b-7cf2f51aff1c")
+	)
+	(junction
+		(at 176.53 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7b9e12-652a-458c-a423-b018ecef2ca0")
+	)
+	(junction
+		(at 215.9 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7e56c1-1bc7-4067-8acd-c377b3ab54d7")
+	)
+	(junction
+		(at 215.9 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bb12002-4700-409b-84d0-f10e40beed38")
+	)
+	(junction
+		(at 24.13 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee90a1d-9c1e-4d7a-b74b-7709302ce627")
+	)
+	(junction
+		(at 191.77 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f5821fe-40fe-4594-8636-a92c31db707c")
+	)
+	(junction
+		(at 100.33 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "914d3858-3bd5-4632-b95d-1b3482d04965")
+	)
+	(junction
+		(at 39.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a4fb16-6d98-4d9e-a12f-4f6a5c2d4f44")
+	)
+	(junction
+		(at 133.35 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "923cdbd5-5f22-42c4-ae1f-e4d48c9220ca")
+	)
+	(junction
+		(at 166.37 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92b7457b-4792-4093-94d7-a0af71803dc9")
+	)
+	(junction
+		(at 151.13 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95442dcf-d00b-4e81-adb0-c8c9b21c53b3")
+	)
+	(junction
+		(at 133.35 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a3b525-9d6f-441f-b2bc-1d36eeadda18")
+	)
+	(junction
+		(at 57.15 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96aa7858-f677-4ed8-bf96-cf27c0b8a1fb")
+	)
+	(junction
+		(at 176.53 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c7398e-245c-4514-a997-96ccf3324c7a")
+	)
+	(junction
+		(at 166.37 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a93bde4-2cb6-4597-be1d-152823c65586")
+	)
+	(junction
+		(at 64.77 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cbdbc5e-5d50-40b3-9a99-997c21b17bec")
+	)
+	(junction
+		(at 49.53 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce8a431-45a7-49c4-893e-8eb01942a755")
+	)
+	(junction
+		(at 64.77 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9df470c3-8312-4458-ba54-172b84ff2751")
+	)
+	(junction
+		(at 74.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fcb55cd-e098-4384-917a-f65fc36a5b05")
+	)
+	(junction
+		(at 215.9 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a07b37ca-3310-4662-ba37-60f1a9f6d837")
+	)
+	(junction
+		(at 215.9 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4efef70-ebaf-413c-9f90-2957b4459160")
+	)
+	(junction
+		(at 176.53 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a51a11de-ff9e-413d-a36f-4aec1645838d")
+	)
+	(junction
+		(at 125.73 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a742a224-303d-4ab6-a15f-b3780f1c6b3d")
+	)
+	(junction
+		(at 24.13 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f71475-e729-4ddd-b11c-29df28eab6ba")
+	)
+	(junction
+		(at 176.53 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8059cf9-64a9-4a81-b6a6-2c53df91f558")
+	)
+	(junction
+		(at 64.77 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a871c809-1dfe-4d80-94d8-50d88e70118c")
+	)
+	(junction
+		(at 100.33 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a87bbd3e-e53e-4eb5-a31d-457f270cbaad")
+	)
+	(junction
+		(at 49.53 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89d3bd1-ca49-40ed-8e84-e8a488f8ca05")
+	)
+	(junction
+		(at 90.17 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a930dd65-83c7-4b21-b1b4-31c9ac53f733")
+	)
+	(junction
+		(at 39.37 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac5b3ac2-e9d3-4bbc-9cac-ee516bbb3d65")
+	)
+	(junction
+		(at 140.97 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad64a940-3ea2-4335-8871-08950793ac28")
+	)
+	(junction
+		(at 166.37 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae183ffb-82d6-4a76-8f3f-b7f1a8f7045d")
+	)
+	(junction
+		(at 166.37 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefa8910-2770-47a5-b5df-211e17b066e1")
+	)
+	(junction
+		(at 125.73 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1621421-7b3b-4070-afb7-6b7aa9832016")
+	)
+	(junction
+		(at 140.97 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1934934-9aa0-4b1e-84e1-b7db538c4fd6")
+	)
+	(junction
+		(at 184.15 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3729b63-0bda-4ffc-86d0-be80a919c2ce")
+	)
+	(junction
+		(at 74.93 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4b2a3a6-03a1-4bd3-a718-20713db16425")
+	)
+	(junction
+		(at 158.75 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4ffd2ee-aade-4bde-86c3-20b613ce413d")
+	)
+	(junction
+		(at 191.77 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b59633a1-7eaf-4e8e-84f8-8fc865be4f03")
+	)
+	(junction
+		(at 49.53 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b61fe693-c469-4d50-894d-f9ef38383b80")
+	)
+	(junction
+		(at 90.17 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b865bb99-070b-470a-8a40-41edc785646a")
+	)
+	(junction
+		(at 82.55 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8bdc207-f699-4a82-8c22-79b98a37642e")
+	)
+	(junction
+		(at 64.77 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8f27059-dd09-4a2c-a4e8-0de273846c57")
+	)
+	(junction
+		(at 100.33 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba327ba0-2035-4b19-8d90-be55be250afe")
+	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "badf7a73-fa1b-46d0-9f32-8e9a0fd39311")
+	)
+	(junction
+		(at 176.53 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbab5518-5d53-4494-9d73-bc17133eaf14")
+	)
+	(junction
+		(at 140.97 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf5f9390-79ee-475f-87e0-93b610e8a342")
+	)
+	(junction
+		(at 133.35 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c02ccf4f-390e-4b97-8dd7-d318479b2e27")
+	)
+	(junction
+		(at 215.9 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0ffd0d4-b79b-4e87-ac78-48320748223f")
+	)
+	(junction
+		(at 82.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c26d9ff7-bc8c-45c2-aa1f-5d7a0c14104a")
+	)
+	(junction
+		(at 140.97 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ad1131-7cb2-4a5a-890b-553b5cb7a89f")
+	)
+	(junction
+		(at 133.35 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38b7e40-7f47-4136-b660-3426072b5731")
+	)
+	(junction
+		(at 24.13 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e758de-0f9f-4415-80a1-1afbd3da4183")
+	)
+	(junction
+		(at 140.97 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4af524a-e897-4863-84ac-2131d2484f06")
+	)
+	(junction
+		(at 125.73 330.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4c15644-bfc6-4078-9de6-ea1bf9fec6a4")
+	)
+	(junction
+		(at 64.77 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6358266-0653-4b2e-baad-dc7002cc0645")
+	)
+	(junction
+		(at 191.77 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6df04b6-4cd9-4f73-808d-1bb8f3887b02")
+	)
+	(junction
+		(at 107.95 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f89c3c-4775-434f-9a5e-9e2f94d101f6")
+	)
+	(junction
+		(at 140.97 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c78938a9-a179-4025-888f-0bf173ad6bc7")
+	)
+	(junction
+		(at 191.77 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c931e6e4-d34e-4dca-91d0-921e6298609c")
+	)
+	(junction
+		(at 107.95 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca016ea7-e2fb-4309-98f0-22c66c62e299")
+	)
+	(junction
+		(at 90.17 298.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca1485a0-618c-4b69-8281-30b8069707a7")
+	)
+	(junction
+		(at 215.9 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca6db3d9-b875-4716-86c5-777dd78f17e6")
+	)
+	(junction
+		(at 82.55 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbcb7a6f-2ff7-442f-8d77-25d9bda2e07f")
+	)
+	(junction
+		(at 39.37 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce318ea8-90a8-47ed-ae30-64a60f8d4643")
+	)
+	(junction
+		(at 24.13 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfd9ffac-f0d4-4b2d-9747-ff599f0318af")
+	)
+	(junction
+		(at 74.93 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14dfc1e-5e08-4adf-952b-a574df4e8551")
+	)
+	(junction
+		(at 57.15 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2638f23-60a9-4408-8741-5d2868c2c654")
+	)
+	(junction
+		(at 176.53 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d27a3e63-a5d2-49c9-87e6-59783714146b")
+	)
+	(junction
+		(at 151.13 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2e647f8-b1b0-4459-b965-e58f17832bbd")
+	)
+	(junction
+		(at 166.37 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d42d45e5-5025-4b15-b582-76977b766f7b")
+	)
+	(junction
+		(at 158.75 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49572b7-3d38-4db4-b326-fddfe3d7816c")
+	)
+	(junction
+		(at 158.75 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5bf5c89-7f7c-4934-8112-182d7fb82318")
+	)
+	(junction
+		(at 191.77 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9063aa4-438c-4c69-930d-a372db89baf7")
+	)
+	(junction
+		(at 100.33 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9b3bca8-46b7-4575-ab16-9ef3d4445f00")
+	)
+	(junction
+		(at 158.75 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da353eb1-6375-43c4-96e9-843857c9aae8")
+	)
+	(junction
+		(at 64.77 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0b4402-2f81-4e88-a7e5-e0c7c75fadcb")
+	)
+	(junction
+		(at 107.95 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e29588aa-0a8a-4ea5-8068-6d49fc26a670")
+	)
+	(junction
+		(at 215.9 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5516ffa-9474-4a85-87e0-180269878926")
+	)
+	(junction
+		(at 82.55 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6e99c21-e3c2-4295-b39a-ac530768c2f0")
+	)
+	(junction
+		(at 176.53 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e77839ad-d18f-4f24-a810-71af24524e06")
+	)
+	(junction
+		(at 125.73 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7ec9da3-df47-48ec-80e7-44d6f101b72e")
+	)
+	(junction
+		(at 191.77 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8ccbdd5-49ca-424b-a262-9477de2c582f")
+	)
+	(junction
+		(at 90.17 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b68a8c-f001-480a-b68e-101f83bb7e74")
+	)
+	(junction
+		(at 82.55 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea79e084-a194-49de-8b10-58e8e69f271c")
+	)
+	(junction
+		(at 133.35 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb8d441-03ad-4187-a5b8-ad888d491e17")
+	)
+	(junction
+		(at 125.73 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed148ec5-ac02-48c5-886b-34ebdf9c6144")
+	)
+	(junction
+		(at 166.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee46e3f4-dbf9-4101-8ecf-043af9e09b06")
+	)
+	(junction
+		(at 158.75 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeb83852-9e58-4ed7-ba71-c108e0ca843f")
+	)
+	(junction
+		(at 115.57 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef23845a-2e19-4409-9498-349204353cc9")
+	)
+	(junction
+		(at 107.95 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f047b8ac-8970-4ec0-9a21-8e6773701453")
+	)
+	(junction
+		(at 176.53 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12739d7-05b0-42a1-b0c6-4f7972b480db")
+	)
+	(junction
+		(at 74.93 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4924326-b525-4ecd-ad38-038685db9e98")
+	)
+	(junction
+		(at 74.93 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4cb932e-7d27-457c-ab0f-a8a98919b02a")
+	)
+	(junction
+		(at 166.37 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4edc23f-7ab6-419b-9127-19a59256386d")
+	)
+	(junction
+		(at 158.75 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f75397e4-b3be-4697-914d-3542deb7981f")
+	)
+	(junction
+		(at 82.55 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f3d599-6377-48b3-9085-fc5b9b9084a7")
+	)
+	(junction
+		(at 166.37 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f91fd430-2923-41eb-ac56-5981daf08b8c")
+	)
+	(junction
+		(at 184.15 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97866f4-012c-44df-8d06-e717539bd456")
+	)
+	(junction
+		(at 64.77 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae5aa10-0d04-4a5a-8117-a00a835aa492")
+	)
+	(junction
+		(at 184.15 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb1b4194-108a-4c42-a944-da4dfeca93e3")
+	)
+	(junction
+		(at 184.15 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb70b85d-665b-4540-9e15-bea05592424f")
+	)
+	(junction
+		(at 90.17 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbb85fac-804b-43ba-865e-5100dbdfd35f")
+	)
+	(junction
+		(at 64.77 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbb8d784-c989-449e-9ec5-18f68b3ce5f6")
+	)
+	(junction
+		(at 140.97 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd66cdff-7c5a-4009-9f55-03508687ba1d")
+	)
+	(junction
+		(at 151.13 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa8de01-1639-4fa0-83e9-184ef2f23233")
+	)
+	(junction
+		(at 49.53 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffaa2330-9d8d-43b2-bb1a-c239937c0f3d")
+	)
+	(wire
+		(pts
+			(xy 24.13 260.35) (xy 24.13 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009b333e-78a9-4287-abaf-fff4db51c2e9")
+	)
+	(wire
+		(pts
+			(xy 151.13 330.2) (xy 176.53 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0407f43a-3591-4d45-95ba-dddc399a03f5")
+	)
+	(wire
+		(pts
+			(xy 158.75 49.53) (xy 184.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d200d3-84c1-48e8-95bb-dcfe154d845f")
+	)
+	(wire
+		(pts
+			(xy 176.53 260.35) (xy 176.53 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0650b3ec-b7dc-4850-bb7d-8e908541714e")
+	)
+	(wire
+		(pts
+			(xy 57.15 227.33) (xy 82.55 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080e6227-e51f-43bb-a8d4-c074035f363d")
+	)
+	(wire
+		(pts
+			(xy 215.9 176.53) (xy 215.9 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0862f9bb-e1ed-41ec-bf3a-93fdd2ec5662")
+	)
+	(wire
+		(pts
+			(xy 82.55 176.53) (xy 107.95 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1f50a3-b940-423b-a9ad-5f3acfc85ffd")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 90.17 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bccc335-953e-4e6b-8e89-c4d161c3dc31")
+	)
+	(wire
+		(pts
+			(xy 166.37 133.35) (xy 166.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5ecafc-a85f-43fb-a029-0ac74edc260f")
+	)
+	(wire
+		(pts
+			(xy 49.53 31.75) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f986c47-307b-4cff-9ff7-96336cceb133")
+	)
+	(wire
+		(pts
+			(xy 151.13 184.15) (xy 151.13 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ce3017-54f5-4f78-9d07-f836214bfd7c")
+	)
+	(wire
+		(pts
+			(xy 107.95 24.13) (xy 133.35 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d46556-fa6f-4034-8d4e-a2d166839048")
+	)
+	(wire
+		(pts
+			(xy 74.93 184.15) (xy 74.93 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1509c021-6463-4bea-bfae-03e6a6cd56b1")
+	)
+	(wire
+		(pts
+			(xy 64.77 82.55) (xy 64.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156f84f8-9274-437a-b07e-6800cefc3ce1")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 191.77 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1570662e-330d-4758-ae1d-1fbbb7cc6ae8")
+	)
+	(wire
+		(pts
+			(xy 100.33 330.2) (xy 125.73 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176b2719-4a6c-4288-a267-9a83f4bbedb1")
+	)
+	(wire
+		(pts
+			(xy 90.17 298.45) (xy 115.57 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17706a84-6871-4938-872c-48462061d905")
+	)
+	(wire
+		(pts
+			(xy 158.75 176.53) (xy 184.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18336669-4c99-4da9-b97a-475ff1f6b588")
+	)
+	(wire
+		(pts
+			(xy 31.75 201.93) (xy 57.15 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b9b878-5ed0-4870-a5fa-5ed3db6d6328")
+	)
+	(wire
+		(pts
+			(xy 107.95 125.73) (xy 133.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198808cf-cee5-44be-b560-d99a83d7feb0")
+	)
+	(wire
+		(pts
+			(xy 49.53 31.75) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3a43d2-1730-4414-bcfa-cbf3c41ba943")
+	)
+	(wire
+		(pts
+			(xy 191.77 184.15) (xy 191.77 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bebf219-d018-42ac-b0cd-312bea5bc9f6")
+	)
+	(wire
+		(pts
+			(xy 100.33 82.55) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdcfc47-f0ea-4c08-82cd-983e7b2b703e")
+	)
+	(wire
+		(pts
+			(xy 191.77 209.55) (xy 191.77 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1eddfb-a629-4193-a07c-d9fdfa778b15")
+	)
+	(wire
+		(pts
+			(xy 57.15 100.33) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6dcab1-5f5b-4ffb-8f3e-716f9656d3c8")
+	)
+	(wire
+		(pts
+			(xy 49.53 107.95) (xy 49.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7d9e9e-93a8-47f9-b3d7-9331a6feb4f5")
+	)
+	(wire
+		(pts
+			(xy 151.13 234.95) (xy 151.13 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f853e9b-991c-447d-8a97-d066ac25d357")
+	)
+	(wire
+		(pts
+			(xy 24.13 158.75) (xy 24.13 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20467ffe-9e4f-4826-bac5-2481b827aa55")
+	)
+	(wire
+		(pts
+			(xy 125.73 31.75) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20918ab0-4564-45a8-89c7-0a690ffe3fc9")
+	)
+	(wire
+		(pts
+			(xy 64.77 107.95) (xy 64.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b887b6-870e-4b7f-bdca-36d1da3a3d75")
+	)
+	(wire
+		(pts
+			(xy 39.37 260.35) (xy 39.37 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24723c3c-0aed-4a59-9e10-1eaafd65d844")
+	)
+	(wire
+		(pts
+			(xy 125.73 209.55) (xy 125.73 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cc8daf-e7d5-45d7-a51c-e63ee901744e")
+	)
+	(wire
+		(pts
+			(xy 74.93 234.95) (xy 74.93 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d83c4c-f243-447d-a865-b099de7d5f4b")
+	)
+	(wire
+		(pts
+			(xy 151.13 260.35) (xy 151.13 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25eee4b3-b813-4092-85f7-fb8b1f64a3f3")
+	)
+	(wire
+		(pts
+			(xy 184.15 74.93) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab82ab2-77a8-49e0-9a0d-345a9008f57a")
+	)
+	(wire
+		(pts
+			(xy 176.53 234.95) (xy 176.53 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e589ec3-f070-415a-be08-c2e2b9eccee6")
+	)
+	(wire
+		(pts
+			(xy 82.55 227.33) (xy 107.95 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f725bff-7c12-4857-9342-15fcf8313826")
+	)
+	(wire
+		(pts
+			(xy 64.77 184.15) (xy 64.77 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c0e32c-e253-4bf9-aac6-325a546a47d7")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 107.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3188316c-9afe-418f-a6bb-ffeaf9f0e58f")
+	)
+	(wire
+		(pts
+			(xy 176.53 133.35) (xy 176.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a859a2-82f0-4c3d-816c-1be5212cf61d")
+	)
+	(wire
+		(pts
+			(xy 133.35 176.53) (xy 158.75 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b83a2d-a4fa-42db-ab3d-87aba9e22e20")
+	)
+	(wire
+		(pts
+			(xy 24.13 31.75) (xy 24.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d70797-b1f7-484d-801c-926b1faebaec")
+	)
+	(wire
+		(pts
+			(xy 158.75 24.13) (xy 184.15 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ddda13-ccc7-4f0b-813e-92c1b2c56ae9")
+	)
+	(wire
+		(pts
+			(xy 125.73 234.95) (xy 125.73 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3618e3ac-d6f8-468a-9da1-47ab5316ea04")
+	)
+	(wire
+		(pts
+			(xy 184.15 125.73) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368910e5-8e54-4580-aeac-267f5d98c6db")
+	)
+	(wire
+		(pts
+			(xy 215.9 49.53) (xy 215.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372add6c-69b5-4114-9348-f0d1e5e578fa")
+	)
+	(wire
+		(pts
+			(xy 100.33 209.55) (xy 100.33 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bddcbb-09ac-46f3-904c-afca1f28e14e")
+	)
+	(wire
+		(pts
+			(xy 100.33 260.35) (xy 100.33 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c2f519-155a-4d75-89cd-dbefb1b4c737")
+	)
+	(wire
+		(pts
+			(xy 49.53 133.35) (xy 49.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ebff44-2e8e-475d-961b-986f3b64b612")
+	)
+	(wire
+		(pts
+			(xy 115.57 184.15) (xy 115.57 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39132592-f80f-4d44-ad73-7b9de7b54c45")
+	)
+	(wire
+		(pts
+			(xy 184.15 252.73) (xy 215.9 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397e4dc4-1947-438d-ab85-ea7f6cd1e6a2")
+	)
+	(wire
+		(pts
+			(xy 140.97 158.75) (xy 140.97 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b55e1b-97fe-444d-a597-ca8903cb3c78")
+	)
+	(wire
+		(pts
+			(xy 115.57 133.35) (xy 115.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c897fe5-766f-42cf-b000-789b05730e04")
+	)
+	(wire
+		(pts
+			(xy 74.93 158.75) (xy 74.93 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb15407-3f81-4e8e-b956-8c9e9c8c815d")
+	)
+	(wire
+		(pts
+			(xy 184.15 176.53) (xy 215.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb6cc88-9225-4d52-9b9d-ba5a856f028d")
+	)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 140.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec6651a-6213-4622-a932-aabf8c84af27")
+	)
+	(wire
+		(pts
+			(xy 24.13 330.2) (xy 49.53 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0e10e9-f7b8-4053-8636-558794d2f66a")
+	)
+	(wire
+		(pts
+			(xy 82.55 151.13) (xy 107.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408e11c5-870d-4966-a2f1-847c1c848434")
+	)
+	(wire
+		(pts
+			(xy 125.73 158.75) (xy 125.73 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4155ba56-28ef-40e9-81a1-a83914a87e6f")
+	)
+	(wire
+		(pts
+			(xy 140.97 31.75) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c2b15b-8e33-45c6-8d2a-07d8c2e320e6")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447c2482-7dd0-4e7f-be30-fc2e4dcd5663")
+	)
+	(wire
+		(pts
+			(xy 140.97 209.55) (xy 140.97 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45592ff7-8079-4566-aa85-c1f3b53cadf3")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 215.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4618dfb7-418c-4223-89d5-114dfa9443e1")
+	)
+	(wire
+		(pts
+			(xy 176.53 330.2) (xy 241.3 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478bd70a-5dad-4d9b-b1a1-f67cdedbe83a")
+	)
+	(wire
+		(pts
+			(xy 39.37 107.95) (xy 39.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478d8c10-d67c-41c9-a8c9-808006743af8")
+	)
+	(wire
+		(pts
+			(xy 107.95 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4819ecab-77cc-4754-ae22-9e65b1f68de2")
+	)
+	(wire
+		(pts
+			(xy 140.97 260.35) (xy 140.97 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497bb463-6055-40b7-a57a-95f61f7f82d3")
+	)
+	(wire
+		(pts
+			(xy 31.75 227.33) (xy 57.15 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2c06ca-26e1-4e4e-b88e-c9fbd37ab47d")
+	)
+	(wire
+		(pts
+			(xy 191.77 158.75) (xy 191.77 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b806c52-6e1c-4cfa-bfe4-7fbfc05c3115")
+	)
+	(wire
+		(pts
+			(xy 151.13 209.55) (xy 151.13 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbf73be-a20f-4688-b591-29b61e56ee5c")
+	)
+	(wire
+		(pts
+			(xy 49.53 234.95) (xy 49.53 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dccf6b8-aa0d-4824-a29c-601203aa1b25")
+	)
+	(wire
+		(pts
+			(xy 125.73 133.35) (xy 125.73 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df7f6ac-2681-492c-a18e-398ce233dab3")
+	)
+	(wire
+		(pts
+			(xy 24.13 234.95) (xy 24.13 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f823284-13e2-4810-bff8-075c65d04672")
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f831484-64a2-4bf8-8ea4-7138d329a056")
+	)
+	(wire
+		(pts
+			(xy 49.53 330.2) (xy 74.93 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ee9a51-2054-41eb-b52e-f5e7caefacfc")
+	)
+	(wire
+		(pts
+			(xy 215.9 252.73) (xy 215.9 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531ef75a-a9c9-4d26-b8b1-b266f4de6458")
+	)
+	(wire
+		(pts
+			(xy 140.97 234.95) (xy 140.97 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538d4870-78af-479d-ac59-56db1e24e1a0")
+	)
+	(wire
+		(pts
+			(xy 133.35 201.93) (xy 158.75 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cdd8ea-09e7-4c1e-98ae-7d81224d30cb")
+	)
+	(wire
+		(pts
+			(xy 215.9 151.13) (xy 215.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d9f4c6-402c-4d92-b937-d13a8294c691")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 39.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5522cbba-6ac8-49b5-980b-3b1a47a20d3e")
+	)
+	(wire
+		(pts
+			(xy 115.57 158.75) (xy 115.57 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559b4aa1-4ec3-4a0d-a8ad-7242482831ed")
+	)
+	(wire
+		(pts
+			(xy 24.13 133.35) (xy 24.13 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f4bcbf-d21c-45e9-84f5-d7407e7bd459")
+	)
+	(wire
+		(pts
+			(xy 215.9 201.93) (xy 215.9 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569913e8-db74-45f0-8e74-5ad784b39c1c")
+	)
+	(wire
+		(pts
+			(xy 166.37 158.75) (xy 166.37 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584c8f5f-7378-40bd-b9c6-31d9592840e8")
+	)
+	(wire
+		(pts
+			(xy 125.73 330.2) (xy 151.13 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b40366-9cf4-4b5d-a976-882e63c01d78")
+	)
+	(wire
+		(pts
+			(xy 57.15 24.13) (xy 82.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b916253-5faf-467d-b1d3-d65a92f1bb40")
+	)
+	(wire
+		(pts
+			(xy 125.73 107.95) (xy 125.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cab1334-b6aa-4077-a574-ce56a001a991")
+	)
+	(wire
+		(pts
+			(xy 24.13 184.15) (xy 24.13 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf2c7a8-d8f9-4e3b-84fd-21a2890bc639")
+	)
+	(wire
+		(pts
+			(xy 115.57 260.35) (xy 115.57 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc85ac5-d89e-46bb-b30e-5dcf27be3dbc")
+	)
+	(wire
+		(pts
+			(xy 64.77 260.35) (xy 64.77 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3c7c08-eddc-4c0c-954e-8257354eaf38")
+	)
+	(wire
+		(pts
+			(xy 39.37 184.15) (xy 39.37 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e428a08-bb21-49e4-b37f-79e0b3e3fb2d")
+	)
+	(wire
+		(pts
+			(xy 151.13 158.75) (xy 151.13 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6267c688-fc81-4ea2-b077-cd3035b4d0f0")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63065e6d-a3bf-432f-8db3-239ed927a092")
+	)
+	(wire
+		(pts
+			(xy 166.37 209.55) (xy 166.37 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ac336b-e43c-4a35-aa41-1689ec344155")
+	)
+	(wire
+		(pts
+			(xy 74.93 330.2) (xy 100.33 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c029e2-1b73-4c4e-9414-af3f98f2e4b2")
+	)
+	(wire
+		(pts
+			(xy 31.75 125.73) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a80384d-8266-4ccd-a734-353cf9fc065c")
+	)
+	(wire
+		(pts
+			(xy 176.53 209.55) (xy 176.53 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9b238c-a14b-47b5-b9e5-4b6022089f6f")
+	)
+	(wire
+		(pts
+			(xy 158.75 151.13) (xy 184.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9cfe1c-725f-4f81-b29b-4fe342cd302a")
+	)
+	(wire
+		(pts
+			(xy 24.13 107.95) (xy 24.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce34b48-7ed5-4415-9d6b-1df7a13f30ff")
+	)
+	(wire
+		(pts
+			(xy 74.93 133.35) (xy 74.93 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd04bba-7900-4dc3-ba21-25c3322afc89")
+	)
+	(wire
+		(pts
+			(xy 100.33 234.95) (xy 100.33 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e66ef0e-c70f-4a9e-ba0d-d734b46bc7c8")
+	)
+	(wire
+		(pts
+			(xy 133.35 151.13) (xy 158.75 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec646e1-6e3a-43a3-931b-f23020e2c968")
+	)
+	(wire
+		(pts
+			(xy 39.37 133.35) (xy 39.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4c2fc7-9622-4eba-92ef-27e4275cd0d5")
+	)
+	(wire
+		(pts
+			(xy 31.75 176.53) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcb7211-0474-4c73-981e-11d50cc4dcd9")
+	)
+	(wire
+		(pts
+			(xy 100.33 184.15) (xy 100.33 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdb8488-527c-419f-9cb4-f389a7f8f289")
+	)
+	(wire
+		(pts
+			(xy 64.77 209.55) (xy 64.77 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe644f7-c682-4c36-a850-61e7ba72fdd7")
+	)
+	(wire
+		(pts
+			(xy 184.15 227.33) (xy 215.9 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70239d28-8408-4613-a29d-16f2b53bafd4")
+	)
+	(wire
+		(pts
+			(xy 90.17 133.35) (xy 90.17 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7184c708-27ee-4f4e-ad47-979c4943beb5")
+	)
+	(wire
+		(pts
+			(xy 57.15 74.93) (xy 82.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f903c8-0abd-4233-8004-945e1e550b46")
+	)
+	(wire
+		(pts
+			(xy 191.77 234.95) (xy 191.77 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74974e84-a608-4bdb-8cb6-495dc3fda13d")
+	)
+	(wire
+		(pts
+			(xy 57.15 201.93) (xy 82.55 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75309018-1f1b-40da-a074-f0da81adee87")
+	)
+	(wire
+		(pts
+			(xy 31.75 24.13) (xy 57.15 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9a7eeb-e486-4953-8f94-217ad603937f")
+	)
+	(wire
+		(pts
+			(xy 82.55 100.33) (xy 107.95 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad4c0a6-bab2-4c40-84cc-028eef46efc0")
+	)
+	(wire
+		(pts
+			(xy 82.55 252.73) (xy 107.95 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb20352-57c2-4516-a7b4-5279478b8897")
+	)
+	(wire
+		(pts
+			(xy 166.37 234.95) (xy 166.37 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd3678b-9890-4dcd-864a-2de7b9707c5a")
+	)
+	(wire
+		(pts
+			(xy 24.13 82.55) (xy 24.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2ccb4c-93fd-4828-b8f5-8e0fb9898315")
+	)
+	(wire
+		(pts
+			(xy 166.37 31.75) (xy 166.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb0532e-1596-4624-abcf-839e33024dc9")
+	)
+	(wire
+		(pts
+			(xy 74.93 31.75) (xy 74.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80758533-1822-4ada-9a68-b85021070588")
+	)
+	(wire
+		(pts
+			(xy 64.77 158.75) (xy 64.77 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b2e3ca-b8f6-4aff-9a70-e538663c73f3")
+	)
+	(wire
+		(pts
+			(xy 90.17 184.15) (xy 90.17 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f4cbb9-d717-44ce-8a69-478e4334cb3e")
+	)
+	(wire
+		(pts
+			(xy 90.17 158.75) (xy 90.17 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831e824f-6c9d-4fe9-8d3b-b329be99280e")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 100.33 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8402c0e3-63ed-4d90-8e8f-39a9ebc400d2")
+	)
+	(wire
+		(pts
+			(xy 191.77 31.75) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84171d9f-d924-4c08-ba7b-354aeb99b7df")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 64.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8446173a-5923-4a0c-bb31-3f26d82b1ed4")
+	)
+	(wire
+		(pts
+			(xy 133.35 252.73) (xy 158.75 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fb11b5-6437-4f1f-b4ac-c37681e11f1a")
+	)
+	(wire
+		(pts
+			(xy 184.15 151.13) (xy 215.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8834190d-f13f-40d6-ad55-3e97d12b02d9")
+	)
+	(wire
+		(pts
+			(xy 115.57 31.75) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898fd30f-0b86-45af-9e61-084c908990ad")
+	)
+	(wire
+		(pts
+			(xy 133.35 227.33) (xy 158.75 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afc5506-cde1-4503-9b7a-bf8ae9739550")
+	)
+	(wire
+		(pts
+			(xy 133.35 125.73) (xy 158.75 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1e65ca-68ca-4f9f-8798-6bdb348ec85e")
+	)
+	(wire
+		(pts
+			(xy 82.55 49.53) (xy 107.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce957a2-94fe-46a2-b74c-f134c3504d52")
+	)
+	(wire
+		(pts
+			(xy 176.53 82.55) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df0d907-d64e-4313-b909-e7e61d8cf140")
+	)
+	(wire
+		(pts
+			(xy 215.9 100.33) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e731044-1218-4a16-8cef-bb60d7f0d34d")
+	)
+	(wire
+		(pts
+			(xy 82.55 201.93) (xy 107.95 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ad4ff1-457f-4f44-8681-3cb7e5910f78")
+	)
+	(wire
+		(pts
+			(xy 31.75 74.93) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ae43c5-99c8-4812-9c08-8525d9b99293")
+	)
+	(wire
+		(pts
+			(xy 49.53 57.15) (xy 49.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e347be-4894-41c9-bbb3-7e062dafd326")
+	)
+	(wire
+		(pts
+			(xy 176.53 31.75) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94647d4a-1e45-4ac5-a001-a405e7e2ffa2")
+	)
+	(wire
+		(pts
+			(xy 151.13 107.95) (xy 151.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949a0105-0938-45ac-b9a1-14248a90f363")
+	)
+	(wire
+		(pts
+			(xy 151.13 133.35) (xy 151.13 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f0ec99-bd01-45d2-bce9-c010a0cf86fa")
+	)
+	(wire
+		(pts
+			(xy 133.35 49.53) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9719dbf5-a3f5-4d70-98a7-2e7696f801c5")
+	)
+	(wire
+		(pts
+			(xy 166.37 82.55) (xy 166.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985df44e-cba8-45c0-8308-c0496a05f78d")
+	)
+	(wire
+		(pts
+			(xy 100.33 158.75) (xy 100.33 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9870e4ff-5df0-4562-b51c-7fd14d5ea695")
+	)
+	(wire
+		(pts
+			(xy 158.75 227.33) (xy 184.15 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c8eb08-8de1-4cd1-8b1a-8da2e56c1479")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.15) (xy 191.77 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ede872-845a-428b-9892-491731854278")
+	)
+	(wire
+		(pts
+			(xy 158.75 125.73) (xy 184.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991b5f1a-a810-4fff-8954-c93b2bb28432")
+	)
+	(wire
+		(pts
+			(xy 100.33 107.95) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992b4573-440b-482a-827c-ac9d25fd593a")
+	)
+	(wire
+		(pts
+			(xy 82.55 24.13) (xy 107.95 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8674f7-d667-4b07-ab3c-5aa4ca28f78e")
+	)
+	(wire
+		(pts
+			(xy 140.97 184.15) (xy 140.97 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adb67e7-a0c7-4c5b-bfcb-a15237da9279")
+	)
+	(wire
+		(pts
+			(xy 215.9 125.73) (xy 215.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e293c17-dfdc-48a5-abb8-27888552e3d6")
+	)
+	(wire
+		(pts
+			(xy 176.53 158.75) (xy 176.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8bca47-eca7-48b1-8b3c-9093b342c339")
+	)
+	(wire
+		(pts
+			(xy 115.57 234.95) (xy 115.57 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fac10e-aa83-4514-986e-4481230b0da8")
+	)
+	(wire
+		(pts
+			(xy 215.9 278.13) (xy 215.9 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3722388-6002-410b-88b6-c55a63349785")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 90.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66c1b82-1f8a-4a36-9d57-ac1002e48ee8")
+	)
+	(wire
+		(pts
+			(xy 100.33 31.75) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d01b88-0d76-4ad6-af81-7d107fe816c6")
+	)
+	(wire
+		(pts
+			(xy 125.73 260.35) (xy 125.73 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84163a6-cfb1-4ce2-89d4-b727052d893b")
+	)
+	(wire
+		(pts
+			(xy 90.17 209.55) (xy 90.17 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a962649f-5c6e-44a9-9bfe-81a331436c68")
+	)
+	(wire
+		(pts
+			(xy 184.15 49.53) (xy 215.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaec68da-bbee-4d36-b81a-1159f8696f50")
+	)
+	(wire
+		(pts
+			(xy 57.15 252.73) (xy 82.55 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb4c259-4625-479c-8ff5-1ef867b1892d")
+	)
+	(wire
+		(pts
+			(xy 125.73 57.15) (xy 125.73 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acbd064a-f3d4-4501-9d11-e0a0f24830f6")
+	)
+	(wire
+		(pts
+			(xy 158.75 252.73) (xy 184.15 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af84fdb0-187e-4f0e-aef9-d2e0c30d3c7d")
+	)
+	(wire
+		(pts
+			(xy 49.53 209.55) (xy 49.53 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbb5a22-62bc-4306-854a-3ab0e151be5e")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 140.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff9b6f5-bd7b-4570-9e86-3b4252067d5a")
+	)
+	(wire
+		(pts
+			(xy 74.93 107.95) (xy 74.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a5eb62-4cfa-4937-9fc5-343422518fe2")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 184.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dd03e2-d686-4886-afe4-7684d5cb8962")
+	)
+	(wire
+		(pts
+			(xy 49.53 184.15) (xy 49.53 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f99311-434a-441d-947c-a2ebbdfb5901")
+	)
+	(wire
+		(pts
+			(xy 166.37 298.45) (xy 191.77 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bf41b7-5703-497f-8006-e0fbfbbd5f35")
+	)
+	(wire
+		(pts
+			(xy 64.77 234.95) (xy 64.77 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5010676-9249-4d8a-80ad-1d9cf1d5b2fb")
+	)
+	(wire
+		(pts
+			(xy 57.15 49.53) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b588de5f-9e45-43b1-af1e-eaf3d46df571")
+	)
+	(wire
+		(pts
+			(xy 107.95 74.93) (xy 133.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b665970e-8a46-4993-8a0f-6e5b952f2904")
+	)
+	(wire
+		(pts
+			(xy 166.37 184.15) (xy 166.37 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b0920c-1b6e-4ac9-98ad-c0d9082d4935")
+	)
+	(wire
+		(pts
+			(xy 57.15 176.53) (xy 82.55 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b835397a-067c-494a-a444-e4e1f3527b97")
+	)
+	(wire
+		(pts
+			(xy 24.13 209.55) (xy 24.13 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8835b2f-a3c8-4989-b470-d8e1313de0c2")
+	)
+	(wire
+		(pts
+			(xy 191.77 133.35) (xy 191.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92fe144-120e-4968-a9a6-c00e666c0143")
+	)
+	(wire
+		(pts
+			(xy 64.77 133.35) (xy 64.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9de0452-2cc7-4c9c-be6c-6e33e8bb738f")
+	)
+	(wire
+		(pts
+			(xy 39.37 158.75) (xy 39.37 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8549ee-4801-4a82-b517-25a3a34c2a4c")
+	)
+	(wire
+		(pts
+			(xy 215.9 298.45) (xy 242.57 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbabf8b1-793b-49ad-9aac-fa5d71ec118f")
+	)
+	(wire
+		(pts
+			(xy 90.17 234.95) (xy 90.17 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbefd29-7e26-422c-a197-1fbdcb60594a")
+	)
+	(wire
+		(pts
+			(xy 215.9 74.93) (xy 215.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0e46d9-fb72-4705-aac7-c8f47cccbbac")
+	)
+	(wire
+		(pts
+			(xy 176.53 57.15) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2dda9c-2bd3-47a5-b078-14b5613a8d08")
+	)
+	(wire
+		(pts
+			(xy 133.35 24.13) (xy 158.75 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0eb998c-b03d-4161-8b3f-293357f4eb18")
+	)
+	(wire
+		(pts
+			(xy 125.73 184.15) (xy 125.73 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b58da4-528f-4a83-8fd6-2151534f8287")
+	)
+	(wire
+		(pts
+			(xy 115.57 107.95) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3e1dff7-892d-4be3-a180-9d0809dd4457")
+	)
+	(wire
+		(pts
+			(xy 176.53 184.15) (xy 176.53 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c577977a-17a4-4aa0-bd63-01960345ae17")
+	)
+	(wire
+		(pts
+			(xy 184.15 201.93) (xy 215.9 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76878fc-77b0-495d-85b0-14a151a30870")
+	)
+	(wire
+		(pts
+			(xy 74.93 82.55) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9454de1-5d4a-41e5-8105-5b316f507827")
+	)
+	(wire
+		(pts
+			(xy 31.75 100.33) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c991ffd4-3874-4abb-907b-4c5538c492a2")
+	)
+	(wire
+		(pts
+			(xy 176.53 107.95) (xy 176.53 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e6ae54-2e9e-4724-8982-0ef8e787e680")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab6d014-575b-4233-a64a-1d7d4ae7eb34")
+	)
+	(wire
+		(pts
+			(xy 39.37 298.45) (xy 64.77 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caeed908-f926-4636-84c4-4c2ac8b89d63")
+	)
+	(wire
+		(pts
+			(xy 115.57 298.45) (xy 140.97 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb70b573-ab83-4b72-bd50-90976512ab0d")
+	)
+	(wire
+		(pts
+			(xy 39.37 82.55) (xy 39.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9b9cbb-4588-4859-970e-015c6af00c08")
+	)
+	(wire
+		(pts
+			(xy 115.57 209.55) (xy 115.57 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce0dc18-ea3c-4f8b-b899-8db735ee1f25")
+	)
+	(wire
+		(pts
+			(xy 215.9 24.13) (xy 215.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcfc93a-7e69-4689-b3b2-cca3cd7a7a87")
+	)
+	(wire
+		(pts
+			(xy 166.37 107.95) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6a3ad2-fbe7-4444-8001-98d06b57ea39")
+	)
+	(wire
+		(pts
+			(xy 90.17 260.35) (xy 90.17 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d229301f-393d-4384-9aee-cc17bd8100eb")
+	)
+	(wire
+		(pts
+			(xy 49.53 158.75) (xy 49.53 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36c4154-73ca-4e4f-8cc3-908702e09051")
+	)
+	(wire
+		(pts
+			(xy 64.77 31.75) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5243255-7622-4b9a-b1e1-c9f1604d788e")
+	)
+	(wire
+		(pts
+			(xy 24.13 57.15) (xy 24.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d550e501-baed-4209-ac0e-aaaa89185e9a")
+	)
+	(wire
+		(pts
+			(xy 215.9 227.33) (xy 215.9 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d550f215-7bfd-472b-9bdc-a0b47daad237")
+	)
+	(wire
+		(pts
+			(xy 184.15 24.13) (xy 215.9 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d571aab1-8361-4c4a-8a43-28b5beb1e6d4")
+	)
+	(wire
+		(pts
+			(xy 107.95 176.53) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a05821-aa9f-4d0d-baf6-e0c10f53146f")
+	)
+	(wire
+		(pts
+			(xy 191.77 107.95) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bb4554-9f33-43a7-bdb6-aff8b1cbc8a0")
+	)
+	(wire
+		(pts
+			(xy 158.75 201.93) (xy 184.15 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e83f82-b0c4-40e3-b360-7533d6435fbe")
+	)
+	(wire
+		(pts
+			(xy 49.53 260.35) (xy 49.53 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90cbb5b-9768-4678-84f2-b26e34d58268")
+	)
+	(wire
+		(pts
+			(xy 107.95 151.13) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f2a5d9-efdb-4e53-842d-98bec5330c70")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9c92bb-1491-4623-9a35-d3cb92a3673f")
+	)
+	(wire
+		(pts
+			(xy 90.17 31.75) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df964f45-5c31-4cbe-a72a-8af844431609")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19da5f9-22b6-47df-833c-ab85cd86f3b9")
+	)
+	(wire
+		(pts
+			(xy 57.15 125.73) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35e8af3-4486-4d06-9460-3269dc905d18")
+	)
+	(wire
+		(pts
+			(xy 107.95 49.53) (xy 133.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c1d0aa-c372-441b-97ad-f6a78e0ab930")
+	)
+	(wire
+		(pts
+			(xy 74.93 260.35) (xy 74.93 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3da6050-f8cf-4313-b691-665340a2a176")
+	)
+	(wire
+		(pts
+			(xy 39.37 209.55) (xy 39.37 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e463617e-5864-466a-adcf-5fa90a44ec54")
+	)
+	(wire
+		(pts
+			(xy 133.35 74.93) (xy 158.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50e0043-32e9-4930-8885-619176645dd0")
+	)
+	(wire
+		(pts
+			(xy 100.33 133.35) (xy 100.33 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cb0dcb-0585-494c-acb1-bc3c7d2f2af9")
+	)
+	(wire
+		(pts
+			(xy 49.53 82.55) (xy 49.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d2ed71-ec42-4d0e-bf23-d99560fa394f")
+	)
+	(wire
+		(pts
+			(xy 39.37 31.75) (xy 39.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85d84ab-1b21-440b-9f83-fc407e1d5471")
+	)
+	(wire
+		(pts
+			(xy 31.75 252.73) (xy 57.15 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac86699-7a4a-441b-a883-061409e30966")
+	)
+	(wire
+		(pts
+			(xy 151.13 31.75) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb366293-88df-409e-b9ea-c2a028f30252")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9eb736-22f4-4f49-abec-bf498e73b2e6")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 151.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6a5e22-542c-45eb-8f86-62059091510e")
+	)
+	(wire
+		(pts
+			(xy 39.37 234.95) (xy 39.37 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee70ac7f-d8b2-4d6b-9fed-87f636e8cf50")
+	)
+	(wire
+		(pts
+			(xy 158.75 74.93) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f014d1de-fe46-4b5d-8192-c6cd732e6738")
+	)
+	(wire
+		(pts
+			(xy 107.95 201.93) (xy 133.35 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0969997-bd3e-429a-a9bb-dff603462448")
+	)
+	(wire
+		(pts
+			(xy 107.95 227.33) (xy 133.35 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f351e647-dc6d-41d1-af7a-9b5e35c60dbf")
+	)
+	(wire
+		(pts
+			(xy 57.15 151.13) (xy 82.55 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40ab633-7c6f-4091-aa9d-8c2973078c54")
+	)
+	(wire
+		(pts
+			(xy 64.77 298.45) (xy 90.17 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58aa28b-c4c4-41f1-a0af-c8deffca3615")
+	)
+	(wire
+		(pts
+			(xy 107.95 252.73) (xy 133.35 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bfb818-d3f4-4374-81a1-bc8d0eb448bb")
+	)
+	(wire
+		(pts
+			(xy 140.97 107.95) (xy 140.97 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86d3053-19e7-488f-bee3-f50d4dca21fc")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91e2882-2d82-49a8-938e-63b1cd81c87b")
+	)
+	(wire
+		(pts
+			(xy 191.77 298.45) (xy 215.9 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ad29ef-dd10-4949-ac77-8d6579e7949b")
+	)
+	(wire
+		(pts
+			(xy 140.97 298.45) (xy 166.37 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe9ac65-4123-4f32-b8ee-9d14659f1e49")
+	)
+	(wire
+		(pts
+			(xy 166.37 260.35) (xy 166.37 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0f39fc-61e5-4daa-be7c-61a756962dba")
+	)
+	(wire
+		(pts
+			(xy 31.75 151.13) (xy 57.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe379c61-0f03-44ae-809d-2ed76e7034af")
+	)
+	(wire
+		(pts
+			(xy 74.93 57.15) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe543408-4668-466b-a810-9dfc7f4e8658")
+	)
+	(wire
+		(pts
+			(xy 140.97 133.35) (xy 140.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe762f77-1124-4ca6-bf54-cd6bfd5e6c48")
+	)
+	(wire
+		(pts
+			(xy 74.93 209.55) (xy 74.93 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedda283-8e7b-43c5-b548-2fa16ccc3d1d")
+	)
+	(wire
+		(pts
+			(xy 191.77 260.35) (xy 191.77 298.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feedac39-04f7-4681-8379-dfd28905a205")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef7ef3b-6b12-48aa-8b10-d386799ea65f")
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00edc7fe-365e-4426-aba6-e2aecec516a8")
+		(property "Reference" "U55"
+			(at 107.95 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "24b6f992-0bb9-47b7-a3a0-f2570b2f7e47")
+		)
+		(pin "2"
+			(uuid "75e76337-c0db-4457-a59f-76d175cce7bc")
+		)
+		(pin "1"
+			(uuid "f8a795b2-9cbb-40f3-b033-782079d0b40b")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f4e510-c1de-455b-9bda-9336386f9ae6")
+		(property "Reference" "U21"
+			(at 184.15 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e670217a-c58d-4b64-9146-ac8e5d178152")
+		)
+		(pin "2"
+			(uuid "4ff3483b-aa47-4ffd-b05c-e3a6e239ff17")
+		)
+		(pin "1"
+			(uuid "fa14a64d-e01e-431e-bed1-09cb53655000")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "065b8c94-403b-4c29-80a0-20530e581cf6")
+		(property "Reference" "U15"
+			(at 31.75 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0ccce633-1eee-4b3d-a902-5f32e7c5220e")
+		)
+		(pin "2"
+			(uuid "1485e6de-cae2-42b1-82de-16857fec9773")
+		)
+		(pin "1"
+			(uuid "4f13803a-282d-48d1-a198-a8b18aabef8b")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0717a836-508f-43bb-b4c6-740429134339")
+		(property "Reference" "U41"
+			(at 57.15 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2e7d5416-82fc-4c34-b72f-c19fd53c393f")
+		)
+		(pin "2"
+			(uuid "c5da090d-f442-4bb9-b0c8-f0cfb80f71f9")
+		)
+		(pin "1"
+			(uuid "3f496ac7-a116-459e-9d8d-376649cd8d25")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d979d1c-42ae-4d0e-a686-a7c39baa8636")
+		(property "Reference" "U52"
+			(at 107.95 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "000d4169-7e7b-4269-bd37-68f315c4003c")
+		)
+		(pin "2"
+			(uuid "2068713b-54c2-4ddb-bb31-2cf3889828d5")
+		)
+		(pin "1"
+			(uuid "3adccb38-936a-4455-aae5-ba52b546dfed")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc57183-ed4a-4032-ac92-c8f0d22e24d3")
+		(property "Reference" "U47"
+			(at 82.55 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "35209a7f-cf2e-4cee-92a0-9ee8f27ae156")
+		)
+		(pin "2"
+			(uuid "1161a6d2-ae82-441c-a683-af5d52af36d7")
+		)
+		(pin "1"
+			(uuid "7a4589de-0006-4e99-9f87-951650a3b5db")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132ca8f6-b238-470e-9e39-ca3e5cbf6bb5")
+		(property "Reference" "U66"
+			(at 184.15 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b653f44c-811e-447d-b84b-615f6a8733eb")
+		)
+		(pin "2"
+			(uuid "a0ec8adf-685d-44aa-9ac9-14c289196e17")
+		)
+		(pin "1"
+			(uuid "0103496b-887a-4f2f-8df5-5ec06102ccbf")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1734e080-1b4d-49bf-93fe-7dca0733352a")
+		(property "Reference" "U26"
+			(at 133.35 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "11bac2a3-fd81-49f9-9067-1dc7545a9cf6")
+		)
+		(pin "2"
+			(uuid "44c399fe-fe52-471b-8c3d-d70ce3e335af")
+		)
+		(pin "1"
+			(uuid "f6a545d8-e5d1-489f-a111-50cb0b230138")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1836dd0a-98d3-47a8-9964-14410ef56a68")
+		(property "Reference" "U43"
+			(at 57.15 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5b901984-b500-404f-9ace-16162a5e1226")
+		)
+		(pin "2"
+			(uuid "ddd3b600-feec-4d4d-9cad-a2b917360f79")
+		)
+		(pin "1"
+			(uuid "1f47970a-3609-4c5a-b6ae-3a182c7e3c5b")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1907e6e1-cdf5-4e54-a53e-7f7a7efc2edc")
+		(property "Reference" "U54"
+			(at 107.95 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "87adad0b-770a-42af-926b-a81959b9af6d")
+		)
+		(pin "2"
+			(uuid "75106ebf-0f22-4a49-a36c-a4fdf2102189")
+		)
+		(pin "1"
+			(uuid "a89dea97-ee2e-49a0-be1e-f8acb8dd1201")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2013f0d2-21e8-4f8e-962d-4b4961948779")
+		(property "Reference" "U37"
+			(at 31.75 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7f25b475-fe9f-43f1-b961-16259d86553f")
+		)
+		(pin "2"
+			(uuid "b0d33a9b-2b5b-4b2a-b0f9-4e78f9693f88")
+		)
+		(pin "1"
+			(uuid "9441d8be-4598-475f-8038-5158e337dcf7")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f99ad0-fcf4-4616-a082-264f6a44df5e")
+		(property "Reference" "U23"
+			(at 57.15 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7a76e389-a073-4c12-9217-113c48e06326")
+		)
+		(pin "2"
+			(uuid "58f0c561-6e28-4fb4-80fc-283d139cfb14")
+		)
+		(pin "1"
+			(uuid "f533b62c-599a-48f4-accf-37bfd7fd2953")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "268d135d-e949-439f-9e71-269f4a422e9e")
+		(property "Reference" "U60"
+			(at 133.35 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "06de5789-3ca0-4d0a-862c-db52fc7198d9")
+		)
+		(pin "2"
+			(uuid "7e3b307a-c01a-465f-8865-72974e647ab7")
+		)
+		(pin "1"
+			(uuid "18675fb9-e069-46c6-887f-1b7fcf82e6aa")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a31aad4-614c-453f-ad75-6d468d18a5a6")
+		(property "Reference" "U7"
+			(at 184.15 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8b6085ab-ef5f-41e5-8323-fa986de5a5ac")
+		)
+		(pin "2"
+			(uuid "a87f26ec-a245-417c-9e22-d17616581892")
+		)
+		(pin "1"
+			(uuid "a55cb946-492f-46f1-8a0a-87733760adc6")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:Adafruit_Feather_32u4_BluefruitLE")
+		(at 298.45 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eb70ff4-cb1e-4cfb-90b8-399269a2573b")
+		(property "Reference" "A1"
+			(at 300.6441 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Adafruit_Feather_32u4_BluefruitLE"
+			(at 300.6441 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Adafruit_Feather"
+			(at 300.99 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-32u4-bluefruit-le.pdf"
+			(at 298.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microcontroller module with ATmega32u4 MCU and bluetooth"
+			(at 298.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d382ea1a-21b5-41f3-b4d8-65bc59a97b63")
+		)
+		(pin "16"
+			(uuid "3b257a4c-badc-45bb-b1e3-16fe80468286")
+		)
+		(pin "11"
+			(uuid "1189991b-3d28-40b3-a33a-b0c3c48dc7a9")
+		)
+		(pin "25"
+			(uuid "a243ede0-bfd6-423c-aedf-534ef407009e")
+		)
+		(pin "14"
+			(uuid "14f980c9-abe9-4caa-9d1b-d0cc918830ce")
+		)
+		(pin "15"
+			(uuid "d17e727d-3c52-4b2c-9603-065a17d8cff2")
+		)
+		(pin "18"
+			(uuid "a2f702c1-dd9c-4e1e-a166-87d13b470e0a")
+		)
+		(pin "4"
+			(uuid "3b4cdbd8-e3b5-4acc-8033-166671ecd94e")
+		)
+		(pin "8"
+			(uuid "69aa5871-1cdd-4278-b75c-63c83cc1a740")
+		)
+		(pin "9"
+			(uuid "8cc22061-230d-4749-ba74-35d45639ef37")
+		)
+		(pin "19"
+			(uuid "2b593190-41b4-4e19-ad6f-7fb1a72457df")
+		)
+		(pin "28"
+			(uuid "c5c97600-126f-4193-bc01-4205b8723423")
+		)
+		(pin "7"
+			(uuid "ac1537fd-a22f-4e94-97ae-96724b7c1440")
+		)
+		(pin "10"
+			(uuid "b6c2f2ed-eef1-4ebe-8b8d-fcd953004487")
+		)
+		(pin "26"
+			(uuid "8190eaf5-56a6-4bb2-81f1-40f8e9ee5b70")
+		)
+		(pin "6"
+			(uuid "2939b098-2077-4b47-ad3c-0ec53364e01b")
+		)
+		(pin "3"
+			(uuid "72d5fe2f-f487-4e6e-a643-2dbbc90bf736")
+		)
+		(pin "2"
+			(uuid "53983af3-1790-40f0-85c0-5d200a9a0c55")
+		)
+		(pin "20"
+			(uuid "e024e744-5220-4ea2-bf77-8e4ef32e337e")
+		)
+		(pin "21"
+			(uuid "909004e0-2a28-4fd6-9a04-e708299c8965")
+		)
+		(pin "17"
+			(uuid "fce098ca-d503-4762-90dd-0e8e74d426e0")
+		)
+		(pin "23"
+			(uuid "46307445-75be-43fe-8361-bbcd151a7a72")
+		)
+		(pin "27"
+			(uuid "a9df287f-74db-44ad-a732-c30fc7f3b9c9")
+		)
+		(pin "22"
+			(uuid "42893948-f536-488b-9822-82c942684ad5")
+		)
+		(pin "13"
+			(uuid "2255c03f-660c-42c5-ae8f-b43a59ed0396")
+		)
+		(pin "24"
+			(uuid "e29cf332-1160-4801-9ce9-301c61e76052")
+		)
+		(pin "5"
+			(uuid "5305f514-4ed9-4321-a8de-268b1efe2f92")
+		)
+		(pin "12"
+			(uuid "5a259271-a2ee-442f-a8ce-f1ccd757facb")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "308208b1-7aa0-480f-857d-4c0e776e94e1")
+		(property "Reference" "U22"
+			(at 31.75 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d597c767-2d09-49e4-9a7b-ecefb99d93b9")
+		)
+		(pin "2"
+			(uuid "412e6a8a-8e3a-42e1-b6ea-41000f18ccdb")
+		)
+		(pin "1"
+			(uuid "c6b068e0-e2cc-4d9c-ade8-81989146525b")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "417fb982-df5a-4ecc-bd4f-871cc8197511")
+		(property "Reference" "U70"
+			(at 184.15 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4cb49bed-95c6-4e9c-95d3-eb6af66f2e66")
+		)
+		(pin "2"
+			(uuid "0eb287ae-1aa3-45e1-bd8d-fc55fc44f653")
+		)
+		(pin "1"
+			(uuid "44c37d89-ca75-4f6e-ac59-0828b2aa49fc")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41927582-bece-4136-9b82-92c0f9f0e4ae")
+		(property "Reference" "U1"
+			(at 31.75 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4d90c666-4c9f-4a2c-8a7d-672e9cdc57b1")
+		)
+		(pin "2"
+			(uuid "c47824ab-a237-4182-8d7c-427ad150b46b")
+		)
+		(pin "1"
+			(uuid "41fa4088-81f2-46d8-8882-ad9611feaf47")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43d8abfc-c7b4-4d2e-97a4-d388fda1a354")
+		(property "Reference" "U46"
+			(at 82.55 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e5a4e706-eb3d-4a99-b178-4d0a1b00e234")
+		)
+		(pin "2"
+			(uuid "34b69a3a-6cfe-4212-b7d9-b25f95ef1790")
+		)
+		(pin "1"
+			(uuid "9f2279d2-401b-4096-8c58-5602a0b1cf7e")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489aad52-0304-4f42-8499-fd67bcb155fe")
+		(property "Reference" "U29"
+			(at 31.75 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "55f6679e-ed7d-4b75-b14a-3c2d24f830c2")
+		)
+		(pin "2"
+			(uuid "85d685b6-c633-4bc6-8f33-4d62b6868022")
+		)
+		(pin "1"
+			(uuid "79d1750f-85fb-4275-9bb5-62ef011f5776")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51f64297-0b00-4a72-b5fd-3fdfdebc7537")
+		(property "Reference" "U3"
+			(at 82.55 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c9f97886-0833-4bb7-aeae-fabeaa98a283")
+		)
+		(pin "2"
+			(uuid "9afb78a3-eda2-4aa9-bfaa-3a9f9a16c0ec")
+		)
+		(pin "1"
+			(uuid "4d1649f3-4b2b-4a3c-b2cc-09ecd3242243")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_Module:Adafruit_Feather_M0_Adalogger")
+		(at 298.45 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "540ecfc0-e294-4120-99ff-46e493f55f73")
+		(property "Reference" "A2"
+			(at 300.6441 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Adafruit_Feather_M0_Adalogger"
+			(at 300.6441 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Adafruit_Feather"
+			(at 300.99 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-m0-adalogger.pdf"
+			(at 298.45 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Microcontroller module with SAMD21 Cortex-M0 MCU and SD card reader"
+			(at 298.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "919cc32b-fcf0-4033-a84d-70ede376dd1a")
+		)
+		(pin "4"
+			(uuid "9c359c3f-12d6-440f-86b2-63326c254a3d")
+		)
+		(pin "5"
+			(uuid "ecf69e7f-a0ca-4217-aa6c-d22c7d107988")
+		)
+		(pin "3"
+			(uuid "8c606793-974e-4cde-bc9a-8c817c6cef4c")
+		)
+		(pin "6"
+			(uuid "e5c7d233-f187-4cd7-bbb2-152b0d1c3690")
+		)
+		(pin "23"
+			(uuid "f6d6d244-0a10-4471-858c-4fd08d68ee55")
+		)
+		(pin "12"
+			(uuid "a5116074-9f4b-4dde-8c07-43c7a0161c4f")
+		)
+		(pin "28"
+			(uuid "6c7909bc-c48b-4ff2-80ef-41590f02b71d")
+		)
+		(pin "8"
+			(uuid "b0b8fcf9-bdff-4147-adb5-20bd73e5273a")
+		)
+		(pin "18"
+			(uuid "39e267ef-ca3f-43d2-9979-b9d7f9d4fd6a")
+		)
+		(pin "2"
+			(uuid "86d6d914-4d37-45cb-aaa7-761ca6615edd")
+		)
+		(pin "15"
+			(uuid "3f35677c-ff71-490b-b176-1009ccfb10fe")
+		)
+		(pin "24"
+			(uuid "d29b7966-5ffb-4397-86ac-8830df4c7ee3")
+		)
+		(pin "13"
+			(uuid "e9e4915f-2420-4447-a5a4-427d190687bc")
+		)
+		(pin "10"
+			(uuid "ad868fb7-8a52-4cff-85c9-76ec6b93b994")
+		)
+		(pin "11"
+			(uuid "5f768aa1-18d5-45bc-b782-7c9647fff2cb")
+		)
+		(pin "7"
+			(uuid "89fc18f6-b8f9-4b4d-a4b1-dd1db9f1c9b9")
+		)
+		(pin "20"
+			(uuid "2aeb7b5d-6430-4ec2-b181-531d20478713")
+		)
+		(pin "14"
+			(uuid "a3a663cf-239d-4982-8f40-9e7c037f6e96")
+		)
+		(pin "17"
+			(uuid "c6fc2c98-6951-4191-9432-cc839bd54dca")
+		)
+		(pin "19"
+			(uuid "9f09a03c-6613-4d74-aee5-e471bcb8ba83")
+		)
+		(pin "21"
+			(uuid "8ed56453-5e2c-4997-a168-a8387abb3b66")
+		)
+		(pin "16"
+			(uuid "1edb0c6d-a5c9-4486-a347-9e9a5c7cbae9")
+		)
+		(pin "9"
+			(uuid "fa7750d1-13e6-4314-a39e-ac5703e9c8ea")
+		)
+		(pin "1"
+			(uuid "eaab1a91-f35b-45ec-86e4-505cc9632896")
+		)
+		(pin "25"
+			(uuid "fe592857-456a-4616-b49c-b383f91257ec")
+		)
+		(pin "22"
+			(uuid "ebaf5e25-1888-44aa-a2d8-6726a77f5d04")
+		)
+		(pin "27"
+			(uuid "0b5ce49a-1d0f-400b-9530-96ca3bf1e584")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "A2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5591cf59-caec-4d99-889b-304cd82dbc37")
+		(property "Reference" "U25"
+			(at 107.95 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "03795b95-e266-4ef3-ab67-b3102ff6e60b")
+		)
+		(pin "2"
+			(uuid "9211068d-b3b7-45f9-bb1e-a73e7e2f5503")
+		)
+		(pin "1"
+			(uuid "0b6312e3-0d1f-4c4c-ab59-1357552ed716")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ccc7f1f-8606-49d0-a754-5393f6110301")
+		(property "Reference" "U12"
+			(at 133.35 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b51da55c-8c27-43e1-a54b-e726561113f6")
+		)
+		(pin "2"
+			(uuid "4db9a4d9-f38c-4902-962f-68598ebdee39")
+		)
+		(pin "1"
+			(uuid "c5388a38-1848-4e5c-8275-7b786ea1a1af")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633e66c6-e52f-4f2e-9274-b5801736be8a")
+		(property "Reference" "U14"
+			(at 184.15 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "51b0e5c2-632b-42ab-9873-16b9c0fa9700")
+		)
+		(pin "2"
+			(uuid "46871a10-707d-4220-8599-07d3f41c5308")
+		)
+		(pin "1"
+			(uuid "18a30df9-7c14-4f62-9cc0-1832dce1b406")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "647ad389-0cb9-46d3-8b9d-661f09aa38c5")
+		(property "Reference" "U8"
+			(at 31.75 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1080e664-82a8-4f76-b8ba-c3d47f9db150")
+		)
+		(pin "2"
+			(uuid "df31ec05-ccff-4d8f-b539-1356c8d503d9")
+		)
+		(pin "1"
+			(uuid "1cd858a4-412f-4370-928d-58ede46cb23e")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69d5994a-9bde-4436-b92d-edf7a9d642c7")
+		(property "Reference" "U51"
+			(at 107.95 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5953869e-31ea-4ea5-b254-5e9dc3e56daf")
+		)
+		(pin "2"
+			(uuid "0e3f21f5-5f02-4745-b245-7d69807327f3")
+		)
+		(pin "1"
+			(uuid "9c7633ab-645b-47e7-bb23-aad4940bdb88")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740201c8-e18f-4811-aab7-e0913e6794ba")
+		(property "Reference" "U30"
+			(at 57.15 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1dfd64f0-e98c-4436-9b4f-5aa7968cf3c2")
+		)
+		(pin "2"
+			(uuid "049f6a9f-2100-4730-b671-6d3d0456adf2")
+		)
+		(pin "1"
+			(uuid "8f81e187-1bdf-432f-8522-27670e8abf9a")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77e4b1c1-9bba-414e-8208-5954e49f4b78")
+		(property "Reference" "U50"
+			(at 82.55 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee08af3d-39b9-4ba4-98f4-87d4f1b09eee")
+		)
+		(pin "2"
+			(uuid "89689e4e-b146-4bc3-841e-d614059bdd40")
+		)
+		(pin "1"
+			(uuid "713478a2-afae-4cbb-8a6d-401d5c6fe1d5")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "782381ff-4095-47d1-99e4-b9152faf3ecb")
+		(property "Reference" "U56"
+			(at 133.35 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "907034fa-1381-4282-aef5-929f513e668a")
+		)
+		(pin "2"
+			(uuid "224e50a9-a56d-45df-83d8-ffc0d1c0382c")
+		)
+		(pin "1"
+			(uuid "0544c5f3-ac4e-4d9e-a0e5-9c394748c787")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79681c74-af85-4fb7-beea-fa0154e9bc1e")
+		(property "Reference" "U4"
+			(at 107.95 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "766c36e1-e3cf-4ff2-95c4-5aba30c3aeb0")
+		)
+		(pin "2"
+			(uuid "08747618-d486-4306-b0e8-f6a663f2fc02")
+		)
+		(pin "1"
+			(uuid "05f6a1e8-1776-4d7b-b173-b6822861f15e")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82855aca-b0ce-417c-9438-94b452273591")
+		(property "Reference" "U53"
+			(at 107.95 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "deee2670-c0be-4db9-a943-f08d844d7ee7")
+		)
+		(pin "2"
+			(uuid "652c3424-5367-4cec-b33c-8edb950f349f")
+		)
+		(pin "1"
+			(uuid "cb347ad4-f1bd-4dff-8864-2567f4f2b632")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "863518fb-3610-447b-8487-3aa191fbfe92")
+		(property "Reference" "U38"
+			(at 31.75 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2283ac78-d1b3-4a98-9219-5228be800b2a")
+		)
+		(pin "2"
+			(uuid "ed4a0e90-3dde-488b-8c04-3e7290ec75af")
+		)
+		(pin "1"
+			(uuid "6d6d7a04-ee97-4084-9464-8e483d36f0f5")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f739c3-444b-419e-9aa1-4453e2bcd296")
+		(property "Reference" "U27"
+			(at 158.75 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3b12735e-8d2c-483c-8393-88f01bfa55af")
+		)
+		(pin "2"
+			(uuid "c2b13097-fc2f-4928-ac58-8ec030413ca2")
+		)
+		(pin "1"
+			(uuid "3d8b3169-bce4-45df-8450-b4487671f8d2")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc19818-ee13-4249-b11d-0abfc72cd794")
+		(property "Reference" "U62"
+			(at 158.75 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8cc75bc2-84ed-4238-b9cb-c8e884877b44")
+		)
+		(pin "2"
+			(uuid "67819e1b-8935-473c-8964-c98ced3ba38a")
+		)
+		(pin "1"
+			(uuid "5c2ab05c-82f2-4caa-9a59-b70ab0afcdd5")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fbd22cd-2f5c-4822-ac85-de7ba2ac2469")
+		(property "Reference" "U59"
+			(at 133.35 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd52e60f-5b07-41e8-bd5c-e1e0edfeb2d9")
+		)
+		(pin "2"
+			(uuid "9037000e-2a3b-46e6-928f-92a77d15547a")
+		)
+		(pin "1"
+			(uuid "6a74473e-7376-419d-ae6e-f7bf6c2bc940")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92fac1e9-c5da-4887-9736-ca1ecb131ed3")
+		(property "Reference" "U58"
+			(at 133.35 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d0c720d5-f9a4-4ff7-af7a-caba88017101")
+		)
+		(pin "2"
+			(uuid "f8747aa6-d7ee-4f89-83eb-f53bf5ce5faa")
+		)
+		(pin "1"
+			(uuid "37e0bcf6-0c4d-42e4-a379-cd47896fa2c6")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b6758d-8bea-4310-a4cf-cf3588a075d0")
+		(property "Reference" "U45"
+			(at 57.15 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f15b485c-4a71-44a9-a4ea-2da241598bb5")
+		)
+		(pin "2"
+			(uuid "582317a6-8a6a-4721-b50d-4a9a006b7e2f")
+		)
+		(pin "1"
+			(uuid "0bc3d06a-da9e-4ee3-aabc-b7d135038372")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d2e2df-44bb-4513-86eb-9b4a41673530")
+		(property "Reference" "U65"
+			(at 158.75 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "09abf41d-e3bb-4ea9-8b0f-d6ac6074fa3b")
+		)
+		(pin "2"
+			(uuid "6df360de-d66e-40f9-b239-39daa2375613")
+		)
+		(pin "1"
+			(uuid "6275ddf5-0b58-4ce7-a54f-f2731cd4e34f")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97f26735-c293-4018-b441-86e5efa13a5c")
+		(property "Reference" "U61"
+			(at 158.75 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "adddb62a-8012-4781-b1d6-6519658fa0b8")
+		)
+		(pin "2"
+			(uuid "3e2e5ad0-6072-4368-90af-cd70fd8fca79")
+		)
+		(pin "1"
+			(uuid "4ac3cfec-2b38-4e92-af4f-6fb9350a4ff5")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bb57c64-c927-4aa1-8ac4-b4bebf3b4477")
+		(property "Reference" "U31"
+			(at 82.55 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "53978ba5-901d-4c10-96c9-63bc1cb96d0a")
+		)
+		(pin "2"
+			(uuid "9eda08b1-6898-43a0-b2b4-459ad3af9cdf")
+		)
+		(pin "1"
+			(uuid "d9793184-02a4-43da-9181-1462ac316158")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c6a6ca9-d83b-438d-8bb3-b4932cfba7c1")
+		(property "Reference" "U32"
+			(at 107.95 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d8093e9d-5349-48eb-87bb-1fb59c8430b0")
+		)
+		(pin "2"
+			(uuid "741f245a-52cf-4eb2-8356-2f10f13ff20b")
+		)
+		(pin "1"
+			(uuid "df0877e2-2628-4704-bf9f-63d91a02726a")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d7999a6-fb15-422b-8f88-b3f3796fbb08")
+		(property "Reference" "U69"
+			(at 184.15 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b744f01c-cb8e-4255-bd22-a38df702c8ec")
+		)
+		(pin "2"
+			(uuid "c286e2c9-661a-4586-97a9-08f4a09ec0f8")
+		)
+		(pin "1"
+			(uuid "a9b283b2-a592-485a-8f7b-25fd18954e07")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8abee5e-0d15-41d8-9ace-9c3f41175156")
+		(property "Reference" "U16"
+			(at 57.15 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eee97adc-1b8d-4dbe-945a-d7190e2ad469")
+		)
+		(pin "2"
+			(uuid "097cf3d0-fade-4ab2-a8b8-cf7a105c81d1")
+		)
+		(pin "1"
+			(uuid "39966a8a-4b0c-4d36-b2dc-7964262178f7")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aacb6347-381b-4202-9997-eaa940df2d87")
+		(property "Reference" "U49"
+			(at 82.55 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "065ee4e6-2f8d-46b2-beb2-6d667386b2d6")
+		)
+		(pin "2"
+			(uuid "f418bb86-3707-4dd0-8d34-cdf54810051b")
+		)
+		(pin "1"
+			(uuid "8a39284f-3cd2-43a3-b725-7b9c9de76e36")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0156937-8310-4461-9031-0017261cd385")
+		(property "Reference" "U6"
+			(at 158.75 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "482179ef-0989-4816-a391-91fe40f8e930")
+		)
+		(pin "2"
+			(uuid "5c3b7cbf-b62a-442d-8ee4-c661a8547615")
+		)
+		(pin "1"
+			(uuid "2e640452-2e64-463f-aa51-086e7c4b69a7")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2262091-8c7d-42ec-b4bd-cd20880f9057")
+		(property "Reference" "U39"
+			(at 31.75 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0553a1d0-7761-4970-be39-8a6455a5f1e5")
+		)
+		(pin "2"
+			(uuid "3e16db68-3f73-496e-99c6-bc8685a98f2a")
+		)
+		(pin "1"
+			(uuid "961f0b77-1031-45dd-8317-74f0cc7306d4")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b350afbb-559d-4c16-af29-b1db908c4f0a")
+		(property "Reference" "U42"
+			(at 57.15 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ad7fcc76-8768-412b-b5fc-9db7c00ab8b2")
+		)
+		(pin "2"
+			(uuid "7cb766c9-7f22-4b35-8914-42bcc78e6415")
+		)
+		(pin "1"
+			(uuid "a000998f-0607-45ad-a3a0-3e0518b7d62c")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 260.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b35c5c51-92ae-423b-bf7e-97695a1adceb")
+		(property "Reference" "U40"
+			(at 31.75 267.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 270.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d9f973d-afa8-4d03-89bd-aa4ecd753cb3")
+		)
+		(pin "2"
+			(uuid "00251cf9-3ab9-45cc-bdfe-18df6de5e496")
+		)
+		(pin "1"
+			(uuid "c46b0618-4370-4c39-9008-1a41781beff4")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e70165-bdfd-4b60-95e2-7bb5b50c7638")
+		(property "Reference" "U11"
+			(at 107.95 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ccb5eb7-2371-46de-8c00-9065f0164464")
+		)
+		(pin "2"
+			(uuid "b8ae8cd6-c954-4c08-b717-f85a945f5e1b")
+		)
+		(pin "1"
+			(uuid "3a234006-6b12-464f-8df2-506b6fbf159c")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc1e9c1-04dd-4ec9-94a5-0bb7835a7597")
+		(property "Reference" "U57"
+			(at 133.35 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "72e434a4-893d-4c98-a55d-4a6a4a9fcd63")
+		)
+		(pin "2"
+			(uuid "fc1e9811-b97d-479d-b2bd-f3b742176914")
+		)
+		(pin "1"
+			(uuid "2bd1144a-582d-4416-b820-05d2dfa4f889")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "my_custom:battery_booster_3,5v_to_5v")
+		(at 299.72 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc542c4-48c5-47db-9008-3a487e96c02c")
+		(property "Reference" "U71"
+			(at 299.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 299.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 299.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2d26d300-d351-4513-a308-69b03349fe7e")
+		)
+		(pin "3"
+			(uuid "d849ba30-1972-46af-bd43-80f282270c83")
+		)
+		(pin "2"
+			(uuid "bedda70b-6c39-485f-ba9f-17a0d18deab0")
+		)
+		(pin "1"
+			(uuid "65103b03-b9d6-429e-b954-f7349bfef70e")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcbeed47-59c8-4e12-99a4-bbfd44326495")
+		(property "Reference" "U63"
+			(at 158.75 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "42c7cc6a-d8d2-4bb4-9d81-d9cf618b4508")
+		)
+		(pin "2"
+			(uuid "47b5da27-d14b-4f2c-84c8-12b2c072ee36")
+		)
+		(pin "1"
+			(uuid "a699393b-c459-429d-8177-9316cc7bbb97")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e8520c-a660-46ca-9db2-ba959533300b")
+		(property "Reference" "U35"
+			(at 184.15 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "43ca372e-906a-42ff-91c9-5038c3a552f2")
+		)
+		(pin "2"
+			(uuid "90e4f33d-a391-4f3d-b6d1-0edebbee9577")
+		)
+		(pin "1"
+			(uuid "7579b234-02f6-45d4-949f-371a60e43d26")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a915df-2d8f-4af8-a874-8dc679ce7605")
+		(property "Reference" "U68"
+			(at 184.15 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3730becb-eee2-4ab5-9310-cc35c09c3d33")
+		)
+		(pin "2"
+			(uuid "72effc44-45bb-4edf-a3d4-e9d508e4ca23")
+		)
+		(pin "1"
+			(uuid "08b4b2b3-9a4d-4774-bd66-659337aac1a0")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9931f0e-044e-43c1-8863-c6f65b17904d")
+		(property "Reference" "U28"
+			(at 184.15 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "35a64247-968d-4c21-86a7-d474468b1014")
+		)
+		(pin "2"
+			(uuid "3f9b86ad-9b0b-4aa3-a945-2354520a6232")
+		)
+		(pin "1"
+			(uuid "cd288c10-1e77-4eb3-b71c-646dc429f88f")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc68eb54-8023-4a63-9b28-517d87e09d81")
+		(property "Reference" "U44"
+			(at 57.15 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f727c01f-ec73-46ae-9b93-d296ff93ce28")
+		)
+		(pin "2"
+			(uuid "183df165-19fc-4528-ab44-570e1fb1a146")
+		)
+		(pin "1"
+			(uuid "44f0edbb-46cd-4878-8944-34a70ebc21d5")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 234.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7660c2c-5f28-4a32-809f-23e95aefe096")
+		(property "Reference" "U64"
+			(at 158.75 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88010ab5-3b30-40ac-b960-a8acd8e471fd")
+		)
+		(pin "2"
+			(uuid "4ebe05ba-3e7d-4a64-ae65-50d6da314dd3")
+		)
+		(pin "1"
+			(uuid "ee20b9d7-b578-4e11-a761-8a090202b03d")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8694f44-1448-47ea-be30-1699e0cb8c8f")
+		(property "Reference" "U19"
+			(at 133.35 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e1103661-de21-4f65-902f-22ff47af628f")
+		)
+		(pin "2"
+			(uuid "01994b0f-3a8e-423b-8b07-3737378e39f7")
+		)
+		(pin "1"
+			(uuid "796491d8-385d-4a28-a2b6-46fbfbbf55d7")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dacb57ea-887d-4d99-835e-9576068ebd44")
+		(property "Reference" "U17"
+			(at 82.55 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "477ff5db-ab50-4535-beac-9574df8d8ba0")
+		)
+		(pin "2"
+			(uuid "bc492bdf-3d07-4fe0-ab71-be21604eeb73")
+		)
+		(pin "1"
+			(uuid "f0c15a82-b304-4c61-87a3-0b241be5f38a")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1135e0-8dea-4804-ad93-d2713b2eaaf8")
+		(property "Reference" "U33"
+			(at 133.35 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4c154fb7-9a26-4d80-9cfa-eca4f39fb49d")
+		)
+		(pin "2"
+			(uuid "af6a23ca-e633-4c8e-a9a8-de16412fe834")
+		)
+		(pin "1"
+			(uuid "667abf35-de15-4cbe-a593-faed4135ffb2")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd0861a9-938b-46ea-89c2-6ba0502042ef")
+		(property "Reference" "U48"
+			(at 82.55 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "30d3df73-488a-47c8-94a0-10e37db48c49")
+		)
+		(pin "2"
+			(uuid "a32443fb-4119-4f32-8b58-85e521ded4e3")
+		)
+		(pin "1"
+			(uuid "60d45274-940e-4c24-8169-0925b26f2081")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8e4d88-e0b6-4372-b7e5-b2287072fd69")
+		(property "Reference" "U2"
+			(at 57.15 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7735225c-9bd6-4c52-92b3-a6edbe892b9c")
+		)
+		(pin "2"
+			(uuid "09fb3e18-c434-4b5d-a4af-67b091e41246")
+		)
+		(pin "1"
+			(uuid "6a9986af-7320-407c-ac31-2c3cd9b89519")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deb03ae0-b1c8-4ab2-b049-d6a4c4003253")
+		(property "Reference" "U34"
+			(at 158.75 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "58d7e0f7-85c5-4cc3-af61-97a137882367")
+		)
+		(pin "2"
+			(uuid "5dce7063-8179-4c76-b5fe-5abeb5e4f59d")
+		)
+		(pin "1"
+			(uuid "6a5911f5-85d9-4fd2-8bf6-e5e5f0dcaf48")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deb6f7e9-8402-406c-b5de-4ad7c249d9a9")
+		(property "Reference" "U20"
+			(at 158.75 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "96b4f68b-80c5-45b8-a31e-6809e0b36a42")
+		)
+		(pin "2"
+			(uuid "0c9baf0f-76f1-48bc-b243-2cfbaf642955")
+		)
+		(pin "1"
+			(uuid "a234579b-6d65-4242-b3ef-e3e79d6d5727")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 57.15 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2fd043d-b16f-45b6-b332-5b17f6fc4ece")
+		(property "Reference" "U9"
+			(at 57.15 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 57.15 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dfcaf4ad-b9a1-4951-865f-b7de912b6283")
+		)
+		(pin "2"
+			(uuid "33c3415c-bd6f-49dd-9171-fc2a46e392b0")
+		)
+		(pin "1"
+			(uuid "93076142-dfc1-49ee-8403-8deb49c6145a")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 215.9 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ed9a3b-a6a8-43fd-ba42-acc513fd47d8")
+		(property "Reference" "R1"
+			(at 218.44 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7"
+			(at 218.44 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 216.916 274.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94422556-9403-4a26-bc98-f8565e809fa9")
+		)
+		(pin "2"
+			(uuid "e409038c-9681-42a8-b4b0-1d30797e2324")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 184.15 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb37cba0-2c15-486e-af54-575da1642d60")
+		(property "Reference" "U67"
+			(at 184.15 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 184.15 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 177.8 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dfca5c24-1404-4d59-8ee8-b811fd83b55e")
+		)
+		(pin "2"
+			(uuid "d084263d-db22-4766-b3b3-cc0b60d71340")
+		)
+		(pin "1"
+			(uuid "2b4cea6b-e96a-42db-ba56-99b563a10532")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 298.45 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed16f544-b5e4-46ae-93ab-63839543a688")
+		(property "Reference" "BT1"
+			(at 297.8785 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 297.8785 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 296.926 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 296.926 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f8e8e61-6c60-4131-a408-d661e63a027f")
+		)
+		(pin "1"
+			(uuid "98668028-71cf-4009-8aa3-035dfca4f99b")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 133.35 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f33bbc60-1441-4550-94b5-4ba6a4979f46")
+		(property "Reference" "U5"
+			(at 133.35 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 133.35 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 127 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d27e8784-ed9e-4492-8b10-1c19af5b6772")
+		)
+		(pin "2"
+			(uuid "cf38578c-e0ae-4e7a-921e-7036622f7b10")
+		)
+		(pin "1"
+			(uuid "b1d57950-2961-4168-95e9-f52f9947a65a")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f459a966-fce2-477b-a2ef-38a3b11dc59f")
+		(property "Reference" "U24"
+			(at 82.55 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3034a1ca-bbae-4fcb-b20f-f7f7989838d8")
+		)
+		(pin "2"
+			(uuid "f0cb930c-84ae-4488-a81f-4ccb9290d82f")
+		)
+		(pin "1"
+			(uuid "1eedce63-fb2c-4d4c-bd2a-244afa8a76e0")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 158.75 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f48f875a-c533-4b6e-989d-fde6bd1278d3")
+		(property "Reference" "U13"
+			(at 158.75 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 158.75 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "051c4c1f-c78b-4d15-9a9e-6d0c6bb6357f")
+		)
+		(pin "2"
+			(uuid "b2c4ba2a-b774-4ca3-a402-187aab76bf89")
+		)
+		(pin "1"
+			(uuid "53251536-d6e6-4062-bce8-108ad923b3b8")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 107.95 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f801d534-81d2-4313-b189-e3e73a168555")
+		(property "Reference" "U18"
+			(at 107.95 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 107.95 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48197c17-c63c-40bc-8c3a-fbf047d8aa87")
+		)
+		(pin "2"
+			(uuid "7fb8c286-2214-4dd7-b495-a80387dc9b27")
+		)
+		(pin "1"
+			(uuid "9f187b07-fdca-404c-9fa8-c2014aa76df1")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 31.75 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f97a5dd8-bfd3-4c8b-943f-519fb5c7df50")
+		(property "Reference" "U36"
+			(at 31.75 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 31.75 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 38.1 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 25.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "00041570-dee7-4f99-bbf7-f293d5b1ce98")
+		)
+		(pin "2"
+			(uuid "4de7df45-63d3-4074-bfa4-2fd558b8990a")
+		)
+		(pin "1"
+			(uuid "c7825a60-fe61-4dfa-9a38-5ca35a472812")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:DS18B20")
+		(at 82.55 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd95f510-eeb7-48c0-96a6-bb57781c9033")
+		(property "Reference" "U10"
+			(at 82.55 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS18B20"
+			(at 82.55 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+			(at 76.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "720372ee-0240-4b35-b45d-1bac4bb1bce7")
+		)
+		(pin "2"
+			(uuid "d8da223c-2183-4414-bbc8-df60f2394774")
+		)
+		(pin "1"
+			(uuid "29a69043-d6dd-4371-865e-2e9ab8ac960d")
+		)
+		(instances
+			(project "datalogger_v2_PCB"
+				(path "/a146852f-6ecc-479c-b01e-835ccf332ac0"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

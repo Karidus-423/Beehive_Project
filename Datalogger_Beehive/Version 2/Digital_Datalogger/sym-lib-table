@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "Digital_Datalogger-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Digital_Datalogger-eagle-import.kicad_sym")(options "")(descr ""))
-)
