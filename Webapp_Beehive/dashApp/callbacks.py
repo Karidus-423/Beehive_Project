@@ -11,7 +11,7 @@ from layout import build_layout
 
 def initialize_variables():
     global years, months, days, hours, sensor_numbers,dataset  # Declare the variables as global
-    dataset = pd.read_csv("../sensor_data_hours_updated.csv")
+    dataset = pd.read_csv("../Research_Beehive/sensor_data_hours_updated.csv")
     years = set(dataset["Year"])
     months = set(dataset["Month"])
     days = set(dataset["Day"])
@@ -20,7 +20,6 @@ def initialize_variables():
 
 initialize_variables()
 month_list = list(months)
-    
 
 datetime_objects = [datetime(year, month, day, hour) for year, month, day, hour in zip(years, months, days, hours)]
 date_strings = [datetime(year, month, day, hour).strftime("%Y-%m-%d %H:%M:%S") for year, month, day, hour in zip(dataset["Year"], dataset["Month"], dataset["Day"], dataset["Hour"])]
@@ -112,9 +111,6 @@ def update_days_range_slider_marks(value):
     Input('days-range-slider', 'value')
 )
 
-
-camera_params = initial_camera
-
 @app.callback(
     Output('isograph', 'figure'),
     [Input('years-slider', 'value'),
@@ -176,7 +172,7 @@ def update_selected_dates(year_value, month_value, day_range, hour_range):
         'layout': {}  # Your layout settings (if any)
     }
     
-    #Graph Slider
+    #Graph Slider and Animations
     sliders_dict = {
     'active': 0,
     'yanchor': 'top',
